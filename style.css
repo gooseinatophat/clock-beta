@@ -1,35 +1,56 @@
 .frame{
     display: flex;
-    flex-direction:column;
-    height: 700px;
-    width:700px;
-}
-.bgn{
-    display: flex;
-    flex-direction: row;
-}.mdl{
-    display: flex;
-    flex-direction: row;
-}.nd{
-    display: flex;
-    flex-direction: row;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 0;
+    margin: 0;
 }
 .center{
-    width: 660px;
+   height: 80.6vw;
 }
-.top,.bottom{
-    width: 100%;
+.mdl{
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}.l{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+}.r{
+    order: 3;
+    display: flex;
+    flex-direction: column;
+}
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 0.5vw solid rgb(25, 43, 20);
+}
+.top{
     display: flex;
     flex-direction: row;
+    border: 0.5vw solid rgb(25, 43, 20);
+    text-align: center;
+}.bottom{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    text-align: center;
+    border: 0.5vw solid rgb(25, 43, 20);
 }
 .hr,.t,.tt{
-     background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: white;   
+    min-height: 0.5vw;
+    min-width: 0.5vw;
 }
-.right.tt{
-    transform: rotate(90deg);
+.slot, .hr{
+    width: 2.5vw;  
+    height: 2.5vw;  
+    font-size: 2vw;
 }
-.slot{
-    width: 20px;    
-    background-color: yellow;
+body{
+    scale: 60%;
 }
