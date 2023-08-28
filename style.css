@@ -31,17 +31,26 @@
     text-align: center;
     border: 0.5vw solid rgb(25, 43, 20);
 }
+.left{
+    background-color:#5d4aa1 ;
+}
+.right{
+    background-color:#fcdb81 ;
+
+}
 .top{
     display: flex;
     flex-direction: row;
     border: 0.5vw solid rgb(25, 43, 20);
     text-align: center;
+    background-color:#f4faa4  
 }.bottom{
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
     text-align: center;
     border: 0.5vw solid rgb(25, 43, 20);
+    background-color:#d6a2e6 ;
 }
 .hr,.t,.tt{
     background-color: rgb(0, 0, 0);
@@ -56,23 +65,11 @@
 }
 body{
     scale: 60%;
+    background-color: #a9b0ba;
 }
 
 
-.top{
-    background-color:#f4faa4  
-}
-.left{
-    background-color:#5d4aa1 ;
-    color: white;
-} 
-.right{
-    background-color:#fcdb81 ;
-}  
-.bottom{
-    background-color:#d6a2e6 ;
-    color: white;
-}
+
 .commute:hover{
     background-color: #ffa500;
     cursor: pointer;
@@ -104,37 +101,18 @@ body{
 .nap.open{
     background-color:#39b1b1 ; 
 }
-.other:hover{
+.empty:hover{
     background-color: gainsboro;    cursor: pointer;
 }
-.other.open{
+.empty.open{
     background-color: gainsboro;   
 }
+.night{
+    background-color: #45366a; 
+}
 .night:hover{
-    animation: night 0.5s infinite;    cursor: pointer;
+    background-color: #0e1d3a;    cursor: pointer;
 }
 .night.open{
     background-color: #0e1d3a; 
-}
-@keyframes night{
-0%{
-    background-image: url(stars.jpg);
-    background-size: cover;
-}
-25%{
-    background-image: url(stars.jpg);
-    background-size: contain;
-}
-50%{
-    background-image: url(stars.jpg);
-    background-size: cover;
-}
-75%{
-    background-image: url(stars.jpg);
-    background-size: contain;
-}
-100%{
-    background-image: url(stars.jpg);
-    background-size: cover;
-}
 }

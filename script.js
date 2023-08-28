@@ -21,13 +21,13 @@ function toggleMenu(){
 }
 
 function displayer(){
-  const wrk = document.querySelectorAll('.timesquare .barrier .line .work');
-  const opn = document.querySelectorAll('.other.space');
-  const fl = document.querySelectorAll('.fuel.space');
-  const np = document.querySelectorAll('.nap.space');
-  const cmm = document.querySelectorAll('.commute.space');
-  const brk = document.querySelectorAll('.break.space');
-  const slp = document.querySelectorAll('.night.space');
+  const wrk = document.querySelectorAll('.work');
+  const opn = document.querySelectorAll('.empty');
+  const fl = document.querySelectorAll('.fuel');
+  const np = document.querySelectorAll('.nap');
+  const cmm = document.querySelectorAll('.commute');
+  const brk = document.querySelectorAll('.break');
+  const slp = document.querySelectorAll('.night');
 
   wrk.forEach(wrks => { wrks.classList.toggle('open'); });
   opn.forEach(opns => { opns.classList.toggle('open'); });
