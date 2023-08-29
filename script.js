@@ -38,10 +38,10 @@ function displayer(){
   slp.forEach(slps => { slps.classList.toggle('open'); });
 }
 
-function something(){
-  const bSlide = document.querySelector('.smth');
-  const barrier = document.querySelector('.barrier'); 
-  const timeSquare = document.querySelector('.timesquare');
+function nightView(){
+  const bSlide = document.querySelector('.moonsun');
+  const barrier = document.querySelector('.center'); 
+  const timeSquare = document.querySelector('.frame');
   
   bSlide.classList.toggle('open');
   barrier.classList.toggle('open');
@@ -244,7 +244,7 @@ let s= 0;
 let min= 0;
 let h=0;
 let d= new Date();
-let um= 27.5;let uh = um*4; let ut=um/15;
+let u= 2.5; let u1h = u*4; let u1min = u/15;
 
 setInterval(
   function time () {
@@ -252,18 +252,31 @@ setInterval(
     s=d.getSeconds();
     min=d.getMinutes();
     h=d.getHours();
-    um=27.5;
-    uh=um*4;
-    ut=um/15;
-    document.getElementById("morning").style.width= min/15*um + uh*(h-6) +15+ "px";
-    document.getElementById("noon").style.height=  min/15*um + uh*(h-12)  +15+ "px";    
-    document.getElementById("eve").style.width=  min/15*um + uh*(h-18)  +15+ "px";
-    document.getElementById("night").style.height=  min/15*um + uh*(h-24) +15+ "px";
+    u=2.5;
+    u1h=u*4;
+    u1min=u/15;
+
+    const top = document.querySelector(".top");
+    const left = document.querySelector(".left");
+    const right = document.querySelector(".right");
+    const bottom = document.querySelector(".bottom"); 
+    const $61 = document.querySelector("._61");
+    const $62 = document.querySelector("._62");
+    const $63 = document.querySelector("._63");
+    const $64 = document.querySelector("._64");
+    const $71 = document.querySelector(".71");
+/*     const $72 = document.querySelector("._72");
+    const $73 = document.querySelector("._73");
+    const $74 = document.querySelector("._74"); */
+
     document.getElementById("seconds").innerHTML= d.getSeconds();
     document.getElementById("time").innerHTML= h + ":" + min;
-    if (h > 11){document.getElementById("morning").style.width="690px";};
-    if (h > 17){document.getElementById("noon").style.height="690px";};
-    if (h > 23){document.getElementById("eve").style.width="690px";};
-    if (h > 5){document.getElementById("night").style.height="690px";};
+
+    if( h>=6 , min >= 15){$61.style.backgroundColor="#00000071";}
+    if( h>=6 , min >= 30){$62.style.backgroundColor="#00000071";}
+    if( h>=6 , min >= 45){$63.style.backgroundColor="#00000071";}
+    if( h>=7 , min >= 15){$64.style.backgroundColor="#00000071";}
+    if( h>=6 , min >= 15){$71.style.backgroundColor="#00000071";}
+    
   },100
 );
