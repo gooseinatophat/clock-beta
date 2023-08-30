@@ -29,14 +29,13 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #000000;
+    background-color: #c23838;
 }
 .left{
-    background-color:#5d4aa186 ;
+    background-color:#5d4aa10c ;
 }
 .right{
-    background-color:#fcdb81bb ;
-
+    background-color:#fcdb814f ;
 }
 .top{
     display: flex;
