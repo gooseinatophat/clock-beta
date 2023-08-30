@@ -244,7 +244,7 @@ let s= 0;
 let min= 0;
 let h=0;
 let d= new Date();
-let u= 2.5; let u1h = u*4; let u1min = u/15; let umin= min*u1min;
+let u= 3.5; let u1h = u*4; let u1min = u/15; 
 
 setInterval(
   function time () {
@@ -252,21 +252,13 @@ setInterval(
     s=d.getSeconds();
     min=d.getMinutes();
     h=d.getHours();
-    u=100/6/4;
+    u=3.5;
     u1h=u*4;
     u1min=u/15;
-    umin=min*u1min;
-
-    const top = document.querySelector(".topt");
-    const left = document.querySelector(".left");
-    const right = document.querySelector(".right");
-    const bottom = document.querySelector(".bottom"); 
-
 
     document.getElementById("seconds").innerHTML= d.getSeconds();
     document.getElementById("time").innerHTML= h + ":" + min;
-
-    top.style.width=umin+"%";
+    document.querySelector(".topt").style.width= u1h*(h-6) + min*u1min +"vw";
     
   },100
 );
