@@ -244,7 +244,7 @@ let s= 0;
 let min= 0;
 let h=0;
 let d= new Date();
-let u= 2.5; let u1h = u*4; let u1min = u/15;
+let u= 2.5; let u1h = u*4; let u1min = u/15; let umin= min*u1min;
 
 setInterval(
   function time () {
@@ -252,31 +252,21 @@ setInterval(
     s=d.getSeconds();
     min=d.getMinutes();
     h=d.getHours();
-    u=2.5;
+    u=100/6/4;
     u1h=u*4;
     u1min=u/15;
+    umin=min*u1min;
 
-    const top = document.querySelector(".top");
+    const top = document.querySelector(".topt");
     const left = document.querySelector(".left");
     const right = document.querySelector(".right");
     const bottom = document.querySelector(".bottom"); 
-    const $61 = document.querySelector("._61");
-    const $62 = document.querySelector("._62");
-    const $63 = document.querySelector("._63");
-    const $64 = document.querySelector("._64");
-    const $71 = document.querySelector(".71");
-/*     const $72 = document.querySelector("._72");
-    const $73 = document.querySelector("._73");
-    const $74 = document.querySelector("._74"); */
+
 
     document.getElementById("seconds").innerHTML= d.getSeconds();
     document.getElementById("time").innerHTML= h + ":" + min;
 
-    if( h>=6 , min >= 15){$61.style.backgroundColor="#00000071";}
-    if( h>=6 , min >= 30){$62.style.backgroundColor="#00000071";}
-    if( h>=6 , min >= 45){$63.style.backgroundColor="#00000071";}
-    if( h>=7 , min >= 15){$64.style.backgroundColor="#00000071";}
-    if( h>=6 , min >= 15){$71.style.backgroundColor="#00000071";}
+    top.style.width=umin+"%";
     
   },100
 );

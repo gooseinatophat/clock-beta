@@ -38,7 +38,13 @@
     flex-direction: row;
     border: 0.5vw solid rgb(25, 43, 20);
     text-align: center;
-    background-color:#f4faa4  
+    background-color:#f4faa4b9  
+}.topt{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color:#000000d0;
+    width: 0%;
 }.bottom{
     display: flex;
     flex-direction: row-reverse;
