@@ -259,6 +259,14 @@ setInterval(
     document.getElementById("seconds").innerHTML= d.getSeconds();
     document.getElementById("time").innerHTML= h + ":" + min;
     document.querySelector(".topt").style.width= u1h*(h-6) + min*u1min +"vw";
+    document.querySelector(".leftt").style.height= u1h*(h-12) + min*u1min +"vw";
+    document.querySelector(".rightt").style.height= u1h*(h-18) + min*u1min +"vw";
+    document.querySelector(".bottomt").style.width= u1h*(h-24) + min*u1min +"vw";
     
+
+    if (h>=12){document.querySelector(".topt").style.width= 100 +"%";}
+    if (h>=18){document.querySelector(".rightt").style.height= 100 +"%";}
+    if (h>=6){document.querySelector(".leftt").style.height= 100 +"%";}
+    if (h>=23){document.querySelector(".bottomtt").style.width= 100 +"%";}
   },100
 );

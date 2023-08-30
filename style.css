@@ -25,12 +25,17 @@
     flex-direction: column;
     text-align: center;
     border: 0.5vw solid rgb(25, 43, 20);
+}.leftt, .rightt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #000000;
 }
 .left{
-    background-color:#5d4aa1 ;
+    background-color:#5d4aa186 ;
 }
 .right{
-    background-color:#fcdb81 ;
+    background-color:#fcdb81bb ;
 
 }
 .top{
@@ -51,7 +56,13 @@
     justify-content: flex-end;
     text-align: center;
     border: 0.5vw solid rgb(25, 43, 20);
-    background-color:#d6a2e6 ;
+    background-color:#d6a2e6ce ;
+}.bottomt{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    text-align: center;
+    background-color:#000000 ;
 }
 .hr,.t,.tt{
     background-color: rgb(0, 0, 0);
