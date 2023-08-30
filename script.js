@@ -48,11 +48,11 @@ setInterval(
 
     document.getElementById("seconds").innerHTML= d.getSeconds();
     document.getElementById("time").innerHTML= h + ":" + min;
-    
+
     document.querySelector(".topt").style.width= u1h*(h-6) + min*u1min +"vw";
     document.querySelector(".rightt").style.height= u1h*(h-12) + min*u1min + 3.5 +"vw";
     document.querySelector(".bottomt").style.width= u1h*(h-18) + min*u1min +"vw";
-    document.querySelector(".leftt").style.height= u1h*(h) + min*u1min +3.5 +"vw";
+    document.querySelector(".leftt").style.height= u1h*(h) + min*u1min + 3.5 +"vw";
 
 
     if (h>=12){document.querySelector(".topt").style.width= 100 +"%";};

@@ -1,8 +1,8 @@
 .frame{
     display: flex;
     flex-direction:row;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     padding: 0 0 0 0;
     margin: 0;
 }
@@ -20,36 +20,44 @@
     display: flex;
     flex-direction: column;
 }
-.left, .right{
+.left{
     display: flex;
     flex-direction: column;
     text-align: center;
     border: 0.5vw solid rgb(0, 0, 0);
-}.leftt, .rightt{
+    background-color: #805cbb96;
+}.right{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #dd4d4d;
-    width: 100%;
-}
-.left{
-    background-color:#3adbabe3 ;
-}
-.right{
-    background-color:#fcdb814f ;
+    border: 0.5vw solid rgb(0, 0, 0);
+    background-color:#ffbb009d;
+}.leftt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #000000;
+    height: 100%;
+}.rightt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #000000;
+    height: 100%;
 }
 .top{
     display: flex;
     flex-direction: row;
     border: 0.5vw solid rgb(25, 43, 20);
     text-align: center;
-    background-color:#f4faa4b9  
+    background-color:#f4faa4ad  
 }.topt{
     display: flex;
     flex-direction: row;
     text-align: center;
     background-color:#000000d0;
     width: 100%;
+    max-width: 100%;
 }.bottom{
     display: flex;
     flex-direction: row-reverse;
@@ -85,8 +93,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.center:hover{cursor: pointer;}
+}.center:hover{cursor: pointer;}
+
+
 .time-display{
     display: flex;
     width: 100%;
@@ -110,7 +119,6 @@ body{
     cursor: pointer;
     opacity: 2;
     border: 0.5vw solid rgb(221, 77, 77);
-
 }
 #time{
     background-color: #00000000;
@@ -133,6 +141,7 @@ body{
     width: 60px;
     height: 30px;
     border-radius: 45%;
+    border: #000000 0.1vw solid;
 }
 .moonsun{
     border-radius: 50%;
@@ -150,49 +159,17 @@ body{
     background-color: #ffffff;
 }
 
-.commute:hover{
-    background-color: #ffa500;
-    cursor: pointer;
- }
-.commute.open{
-    background-color: #f0a661;
- }
-.work:hover{    
-    background-color:#dd6550;    cursor: pointer;
-}
-.work.open{    
-    background-color:#e06651;   
-}
-.fuel:hover{    
-    background-color:#8ffc81 ;    cursor: pointer;
-}
-.fuel.open{    
-    background-color:#75d169 ;   
-}
-.break:hover{
-    background-color: #1c3a18;    cursor: pointer;
-}
-.break.open{
-    background-color: #1c3a18;
-}
-.nap:hover{
-    background-color:#00ffff ;    cursor: pointer;
-}
-.nap.open{
-    background-color:#39b1b1 ; 
-}
-.empty:hover{
-    background-color: gainsboro;    cursor: pointer;
-}
-.empty.open{
-    background-color: gainsboro;   
-}
-.night{
-    background-color: #45366a; 
-}
-.night:hover{
-    background-color: #0e1d3a;    cursor: pointer;
-}
-.night.open{
-    background-color: #311a55; 
-}
+.commute:hover{background-color: #ffa500;  cursor: pointer;
+}.commute.open{background-color: #f0a661;
+}.work:hover{background-color:#dd6550;    cursor: pointer;
+}.work.open{background-color:#e06651;   
+}.fuel:hover{background-color:#8ffc81 ;    cursor: pointer;
+}.fuel.open{ background-color:#75d169 ;   
+}.break:hover{background-color: #1c3a18;    cursor: pointer;
+}.break.open{background-color: #1c3a18;
+}.nap:hover{background-color:#00ffff ;    cursor: pointer;
+}.nap.open{background-color:#39b1b1 ; 
+}.empty:hover{background-color: gainsboro;    cursor: pointer;
+}.empty.open{background-color: gainsboro;   
+}.night:hover{background-color: #0e1d3a;    cursor: pointer;
+}.night.open{background-color: #311a55;}
