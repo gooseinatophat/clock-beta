@@ -31,7 +31,7 @@
     flex-direction: column;
     text-align: center;
     border: 0.5vw solid rgb(0, 0, 0);
-    background-color:#ffe59fe0;
+    background-color:#ffe59fc2;
 }.leftt{
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     flex-direction: row;
     border: 0.5vw solid rgb(25, 43, 20);
     text-align: center;
-    background-color:#f4faa4ad  
+    background-color:#f4faa479  
 }.topt{
     display: flex;
     flex-direction: row;
@@ -94,7 +94,28 @@ body{
     justify-content: center;
 }.center:hover{cursor: pointer;}
 
-
+.Index{
+    color: #ffffff;
+    background-color: #7c7c7c;
+    width: 5vw;
+    height: 5vw;
+    margin-right: 7vw;
+    border-radius: 50%;
+    font-size: 2.5vw;
+    opacity: 0.7;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+}
+.Index:hover{
+    cursor: pointer;
+    opacity: 2;
+    background-color: yellow;
+    color: #000000;
+}
 .time-display{
     display: flex;
     width: 100%;
@@ -178,16 +199,16 @@ opacity: 0.5;
 }
 
 .commute:hover{background-color: #f7c292;  cursor: pointer;
-}.commute.open{background-color: #f7c292;
+}.commute.open{background-color: #f7c392a2;
 }.work:hover{background-color:#dd978a;    cursor: pointer;
-}.work.open{background-color:#dd978a;   
+}.work.open{background-color:#ff8484a6;   
 }.fuel:hover{background-color:#97cf8f ;    cursor: pointer;
-}.fuel.open{ background-color:#97cf8f ;   
+}.fuel.open{ background-color:#97cf8f80 ;   
 }.break:hover{background-color: #1c3a18;    cursor: pointer;
-}.break.open{background-color: #8edef1;
+}.break.open{background-color: #8eddf1a2;
 }.nap:hover{background-color:#aca9e2 ;    cursor: pointer;
-}.nap.open{background-color:#aca9e2 ; 
+}.nap.open{background-color:#aca9e29d ; 
 }.empty:hover{background-color: #dcdcdc;    cursor: pointer;
-}.empty.open{background-color: #dcdcdc;   
+}.empty.open{background-color: #dcdcdc6e;   
 }.night:hover{background-color: #634e85;    cursor: pointer;
 }.night.open{background-color: #634e85;}

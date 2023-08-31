@@ -16,6 +16,9 @@ function displayer(){
   slp.forEach(slps => { slps.classList.toggle('open'); });
 }
 
+function openInfo() {
+  
+}
 function nightView(){
   const bSlide = document.querySelector('.moonsun');
   const barrier = document.querySelector('.center'); 
