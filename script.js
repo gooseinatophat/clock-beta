@@ -26,8 +26,25 @@ function nightView(){
   timeSquare.classList.toggle('open');
  
   if(bSlide.classList.contains('open')){document.body.style.backgroundColor="#000000";}
-  else{document.body.style.backgroundColor="#acacac";}
+  else{document.body.style.backgroundColor="#cecece";}
  
+}
+function timeView(){
+  const seconds = document.querySelector('.seconds');
+  const time = document.querySelector('.time'); 
+  const tbtn = document.querySelector(".timebtn");
+  
+  seconds.classList.toggle('open');
+  time.classList.toggle('open');
+  tbtn.classList.toggle('open');
+ 
+  if(tbtn.classList.contains('open')){
+    time.style.display="flex";
+    seconds.style.display="flex";}
+  else{
+    time.style.display="none";
+    seconds.style.display="none";}
+
 }
 
 let s= 0;
@@ -46,8 +63,8 @@ setInterval(
     u1h=u*4;
     u1min=u/15;
 
-    document.getElementById("seconds").innerHTML= d.getSeconds();
-    document.getElementById("time").innerHTML= h + ":" + min;
+    document.querySelector(".seconds").innerHTML= d.getSeconds();
+    document.querySelector(".time").innerHTML= h + ":" + min;
 
     document.querySelector(".topt").style.width= u1h*(h-6) + min*u1min +"vw";
     document.querySelector(".rightt").style.height= u1h*(h-12) + min*u1min + 3 +"vw";

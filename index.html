@@ -4,13 +4,16 @@
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clock</title>
+    <title>clock</title>
     <!-- <p> the beta version</p> -->
   </head>
   <body>
-    <div class="container_nV">
+    <div class="container">
       <div class="sky" title="dark mode">
         <button class="moonsun" onclick="nightView()"></button>
+      </div>
+      <div class="timebtn" onclick="timeView()">
+        <div class="arrows">_/</div>
       </div>
     </div>
 
@@ -181,8 +184,8 @@
 
         <div class="center" onclick="displayer()">
           <div class="time-display">
-            <div id="time"></div>
-            <div id="seconds"></div>
+            <div class="time"></div>
+            <div class="seconds"></div>
           </div>
         </div>
 
