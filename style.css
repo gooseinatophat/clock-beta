@@ -1,3 +1,72 @@
+.frame-overlord{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-line,.third-line{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    width:120vw;
+    height: 30vw;
+}
+.seccond-line{
+    width: 140vw;display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    align-items: center;
+}
+.ic1{
+    background:linear-gradient(to top,rgb(175, 223, 245),yellow,rgb(255, 196, 0));
+}
+.ic5{
+    background: linear-gradient(to top, rgb(116, 116, 184), orange, pink );
+}
+.moon-icon{
+    border-radius: 50%;
+    background-color: white;
+    height: 10vw;
+    width: 10vw;
+    align-self: center;  justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #751d1d;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.2vw;
+}
+.icon-container{
+    display: flex;    
+    padding: 2vw;
+    align-self: center;
+}
+.s-icon{
+    border-radius: 50%;
+    background-color: yellow;
+    height: 10vw;
+    width: 10vw;
+    align-self: center;    
+    justify-content: center;
+    display: flex;
+    align-items: center; color: #3f1313;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.2vw;
+
+}
+.ic2,.ic4,.ic6,.ic8{
+    background-color: #1c3a1800;
+}
+.mid9{
+    align-self: flex-start;
+}
+.mid21{
+    align-self: flex-end;
+}
+.edge3{
+    align-self: flex-start;
+}.edge1{
+    align-self: flex-end;
+}
 .frame{
     display: flex;
     flex-direction:row;
@@ -6,7 +75,17 @@
     padding: 0 0 0 0;
     margin: 0;
 }
-
+.options{
+    width: 40vw;
+    background-color: #b9b9b9;
+    display: none;
+    justify-content: center;
+    align-self: center;
+    cursor: auto;
+}
+.options.open{
+    display: flex;
+}
 .mdl{
     display: flex;
     flex-direction: column;
@@ -26,12 +105,15 @@
     text-align: center;
     border: 0.5vw solid rgb(0, 0, 0);
     background-color: #6453acc9;
+    background: linear-gradient(to top, rgb(39, 39, 104), rgb(2, 0, 128), rgb(140, 140, 221));
 }.right{
     display: flex;
     flex-direction: column;
     text-align: center;
     border: 0.5vw solid rgb(0, 0, 0);
     background-color:#ffe59fc2;
+    background: linear-gradient(to bottom, rgb(255, 217, 0), rgb(255, 175, 56), rgb(226, 98, 59));
+
 }.leftt{
     display: flex;
     flex-direction: column;
@@ -50,12 +132,14 @@
     flex-direction: row;
     border: 0.5vw solid rgb(25, 43, 20);
     text-align: center;
-    background-color:#f4faa479  
+    background-color:#f4faa479;  
+    background: linear-gradient(to right,  rgb(183, 206, 255),rgb(255, 213, 74),rgb(255, 238, 0));
+
 }.topt{
     display: flex;
     flex-direction: row;
     text-align: center;
-    background-color:#000000d0;
+    background-color:#000000;
     width: 100%;
     max-width: 100%;
 }.bottom{
@@ -65,6 +149,7 @@
     text-align: center;
     border: 0.5vw solid rgb(25, 43, 20);
     background-color:#f5d3fde0 ;
+    background: linear-gradient(to left,  rgb(209, 93, 93),rgb(185, 78, 171),rgb(45, 34, 94));
 }.bottomt{
     display: flex;
     flex-direction: row-reverse;
@@ -86,6 +171,7 @@
 body{
     scale: 60%;
     background-color: #cecece;
+    background: linear-gradient(to top, rgb(140, 0, 255), rgb(255, 136, 0),yellow);
 }
 .center{
     height: 80.6vw;
@@ -139,7 +225,6 @@ body{
 .seconds:hover{
     cursor: pointer;
     opacity: 2;
-    border: 0.5vw solid rgb(221, 77, 77);
 }
 .time{
     background-color: #00000000;
@@ -177,15 +262,15 @@ opacity: 0.5;
     width: 100%;
 }.sky{
     background-color: #415dd6;
-    width: 60px;
-    height: 30px;
+    width: 10vw;
+    height: 5vw;
     border-radius: 45%;
     border: #000000 0.1vw solid;
 }
 .moonsun{
     border-radius: 50%;
-    width: 22px;
-    height: 22px;
+    width: 4vw;
+    height: 4vw;
     position: relative;
     top: 4px;
     left: 8px;
@@ -194,7 +279,7 @@ opacity: 0.5;
     transition: left 0.3s ease;
 }
 .moonsun.open{
-    left: 30px;
+    left: 5vw;
     background-color: #ffffff;
 }
 

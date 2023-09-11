@@ -19,6 +19,18 @@ function displayer(){
 function openInfo() {
   
 }
+function options(){
+  const op = document.querySelector('.options');
+  const wrk= document.querySelector(".selewrk");
+
+  op.classList.toggle('open');
+  wrk.classList.toggle("open");
+
+ 
+  if(wrk.classList.contains('open')){document.s1.style.backgroundColor="#000000";}
+  else{document.body.style.backgroundColor="#cecece";}
+  
+}
 function nightView(){
   const bSlide = document.querySelector('.moonsun');
   const barrier = document.querySelector('.center'); 
