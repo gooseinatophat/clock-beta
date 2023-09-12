@@ -23,20 +23,33 @@ let chosen = (bgcolor)=>
 }
 let wrk=document.querySelector(".selewrk");
 wrk.addEventListener("click", function(){
-  chosen("red");
+  chosen("#ff8484a6");
 })
 let fuel=document.querySelector(".selefl");
 fuel.addEventListener("click", function(){
-  chosen("green");
+  chosen("#97cf8f80");
 })
 let nap=document.querySelector(".selenp");
 nap.addEventListener("click", function(){
-  chosen("black");
+  chosen("#aca9e29d");
 })
 let night=document.querySelector(".selen");
 night.addEventListener("click", function(){
-  chosen("blue");
+  chosen("#634e85");
 })
+let empty=document.querySelector(".selempt");
+empty.addEventListener("click", function(){
+  chosen("#dcdcdc6e");
+})
+let breaks=document.querySelector(".selebrk");
+breaks.addEventListener("click", function(){
+  chosen("#53944a");
+})
+let commute=document.querySelector(".selecm");
+commute.addEventListener("click", function(){
+  chosen("#f7c392a2");
+})
+
 
 function openInfo() {
 }
