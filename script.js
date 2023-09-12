@@ -16,38 +16,38 @@ function displayer(){
   slp.forEach(slps => { slps.classList.toggle('open'); });
 }
 
-let chosen = (bgcolor)=>
+let chosen = (classChangeTo)=>
 {
   let slot=document.querySelector(".sixff");
-  slot.style.backgroundColor=bgcolor;
+  slot.className=classChangeTo;
 }
 let wrk=document.querySelector(".selewrk");
 wrk.addEventListener("click", function(){
-  chosen("#ff8484a6");
+  chosen("slot work sixff");
 })
 let fuel=document.querySelector(".selefl");
 fuel.addEventListener("click", function(){
-  chosen("#97cf8f80");
+  chosen("slot fuel sixff");
 })
 let nap=document.querySelector(".selenp");
 nap.addEventListener("click", function(){
-  chosen("#aca9e29d");
+  chosen("slot nap sixff");
 })
 let night=document.querySelector(".selen");
 night.addEventListener("click", function(){
-  chosen("#634e85");
+  chosen("slot night sixff");
 })
 let empty=document.querySelector(".selempt");
 empty.addEventListener("click", function(){
-  chosen("#dcdcdc6e");
+  chosen("slot empty sixff");
 })
 let breaks=document.querySelector(".selebrk");
 breaks.addEventListener("click", function(){
-  chosen("#53944a");
+  chosen("slot break sixff");
 })
 let commute=document.querySelector(".selecm");
 commute.addEventListener("click", function(){
-  chosen("#f7c392a2");
+  chosen("slot commute sixff");
 })
 
 
