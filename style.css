@@ -51,7 +51,6 @@
     align-items: center; color: #3f1313;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2.2vw;
-
 }
 .ic2,.ic4,.ic6,.ic8{
     background-color: #1c3a1800;
@@ -76,7 +75,7 @@
     margin: 0;
 }
 .options{
-    display: none;
+    display: flex;
     width: 50vw;
     justify-content: space-evenly;
     align-self: center;
@@ -91,9 +90,6 @@
     display: flex;
     font-style: italic;
     border: #000000 solid;
-}
-.options.open{
-    display: flex;
 }
 .mdl{
     display: flex;
@@ -180,8 +176,8 @@
 body{
     scale: 70%;
     background-color: #cecece;
-    background: linear-gradient(to top, rgb(140, 0, 255), rgb(255, 136, 0),yellow);
-}
+/*     background: linear-gradient(to top, rgb(140, 0, 255), rgb(255, 136, 0),yellow);
+ */}
 .center{
     height: 80.6vw;
     display: flex;
@@ -299,17 +295,17 @@ opacity: 0.5;
     background-color: #ffffff;
 }
 
-.commute:hover{background-color: #f7c292;  cursor: pointer;
-}.commute.open{background-color: #f7c392a2;
-}.work:hover{background-color:#dd978a;    cursor: pointer;
-}.work.open{background-color:#ff8484a6;   
-}.fuel:hover{background-color:#97cf8f ;    cursor: pointer;
-}.fuel.open{ background-color:#97cf8f80 ;   
-}.break:hover{background-color: #1c3a18;    cursor: pointer;
-}.break.open{background-color: #53944a;
-}.nap:hover{background-color:#aca9e2 ;    cursor: pointer;
-}.nap.open{background-color:#aca9e29d ; 
-}.empty:hover{background-color: #dcdcdc;    cursor: pointer;
-}.empty.open{background-color: #dcdcdc6e;   
-}.night:hover{background-color: #634e85;    cursor: pointer;
-}.night.open{background-color: #634e85;}
+.commute{background-color: #ff9b3d9c;  cursor: pointer;
+}.commute.open{background-color: #00000000;
+}.work{background-color:#fc000070;    cursor: pointer;
+}.work.open{background-color:#00000000;   
+}.fuel{background-color:#a5ff9a75 ;    cursor: pointer;
+}.fuel.open{ background-color:#00000000 ;   
+}.break{background-color: #f2ff3f98;    cursor: pointer;
+}.break.open{background-color: #00000000;
+}.nap{background-color:#c5c2ffc9 ;    cursor: pointer;
+}.nap.open{background-color:#00000000 ; 
+}.empty{background-color: #ffffffcc;    cursor: pointer;
+}.empty.open{background-color: #00000000;   
+}.night{background-color: #634e85a8;    cursor: pointer;
+}.night.open{background-color: #00000000;}
