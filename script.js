@@ -16,20 +16,34 @@ function displayer(){
   slp.forEach(slps => { slps.classList.toggle('open'); });
 }
 
+let chosen = (bgcolor)=>
+{
+  let slot=document.querySelector(".sixff");
+  slot.style.backgroundColor=bgcolor;
+}
+let wrk=document.querySelector(".selewrk");
+wrk.addEventListener("click", function(){
+  chosen("red");
+})
+let fuel=document.querySelector(".selefl");
+fuel.addEventListener("click", function(){
+  chosen("green");
+})
+let nap=document.querySelector(".selenp");
+nap.addEventListener("click", function(){
+  chosen("black");
+})
+let night=document.querySelector(".selen");
+night.addEventListener("click", function(){
+  chosen("blue");
+})
+
 function openInfo() {
-  
 }
 function options(){
   const op = document.querySelector('.options');
-  const wrk= document.querySelector(".selewrk");
 
-  op.classList.toggle('open');
-  wrk.classList.toggle("open");
-
- 
-  if(wrk.classList.contains('open')){document.s1.style.backgroundColor="#000000";}
-  else{document.body.style.backgroundColor="#cecece";}
-  
+  op.classList.toggle("open");
 }
 function nightView(){
   const bSlide = document.querySelector('.moonsun');
