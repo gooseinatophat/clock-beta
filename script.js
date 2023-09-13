@@ -116,16 +116,9 @@ setInterval(
     document.querySelector(".bottomt").style.width= u1h*(h-18) + min*u1min +"vw";
     document.querySelector(".leftt").style.height= u1h*(h) + min*u1min + 3 +"vw";
 
-
+    if (h>=6) {document.querySelector(".leftt").style.height= 100 +"%";};
     if (h>=12){document.querySelector(".topt").style.width= 100 +"%";};
     if (h>=18){document.querySelector(".rightt").style.height= 100 +"%";};
-    if (h>=24){document.querySelector(".bottomtt").style.width= 100 +"%";};
-    if (h>=6) {document.querySelector(".leftt").style.height= 100 +"%";};
-    
-    if (h>6)  {document.querySelector(".ic1").style.backgroundColor="#000000000";};
-    if (h=12) {document.querySelector(".ic3").style.opacity=2;}; 
-    if (h=18) {document.querySelector(".ic5").style.opacity=2;};
-    if (h=23) {document.querySelector(".ic7").style.opacity=2;};
-
+    if (h<18){document.querySelector(".bottomt").style.width= 0 +"%";};
   },100
 );
