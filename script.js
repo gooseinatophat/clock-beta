@@ -72,16 +72,24 @@ evnt.addEventListener("click", function () {
   chosen("slot event");
 });
 
-function openInfo() {}
+function openInfo() {
+  const click = document.querySelector(".click_me");
+  const i = document.querySelector(".Index");
+
+  i.classList.toggle("open");
+
+  if (i.classList.contains("open")) {
+    click.style.display = "flex";
+  } else {
+    click.style.display = "none";
+
+  }
+}
 
 function nightView() {
   const bSlide = document.querySelector(".moonsun");
-  const barrier = document.querySelector(".center");
-  const timeSquare = document.querySelector(".frame");
 
   bSlide.classList.toggle("open");
-  barrier.classList.toggle("open");
-  timeSquare.classList.toggle("open");
 
   if (bSlide.classList.contains("open")) {
     document.body.style.backgroundColor = "#000000";

@@ -8,45 +8,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-.ic1{
-    background:linear-gradient(to top,rgb(175, 223, 245),yellow,rgb(255, 196, 0));
-    color: rgb(130, 163, 255);
-    font-size: 1.8vw;
-}
-.ic5{
-    background: linear-gradient(to top, rgb(116, 116, 184), orange, pink );
-    color: rgb(153, 90, 179);
-    font-size: 1.8vw;
-}
-.ic7{
-    background: linear-gradient(to right, white, black);
-    color: #ffffff;
-    font-size: 1.8vw;
-}
-.ic3{
-    background: linear-gradient(to right, rgb(251, 255, 0), rgb(255, 230, 0));
-    color: #99740f;    
-    font-size: 1.8vw;
-}
-.ic2,.ic4,.ic6,.ic8{
-    background-color: #1c3a1800;
-}
-.m-icon,.s-icon{
-    border-radius: 50%;
-    height: 10vw;
-    width: 10vw;
-    align-self: center;  justify-content: center;
-    display: flex;
-    align-items: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.icon-container{
-    display: flex;    
-    padding: 2vw;
-    align-self: center;
-}
-
 .frame{
     display: flex;
     flex-direction:row;
@@ -188,7 +149,22 @@ body{
     cursor: pointer;
     opacity: 2;
     background-color: yellow;
-    color: #000000;}
+    color: #000000;
+}
+.Index.open{
+    cursor: pointer;
+    opacity: 2;
+    background-color: yellow;
+    color: #000000;
+}
+.click_me{
+    display: none;
+    font-size: 10vw;
+    align-self: center;
+    color: rgb(255, 251, 0);
+    font-style: italic;
+}
+
 .time-display{
     display: flex;
     width: 100%;
