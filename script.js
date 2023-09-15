@@ -93,8 +93,17 @@ function nightView() {
 
   if (bSlide.classList.contains("open")) {
     document.body.style.backgroundColor = "#000000";
+    document.querySelector(".leftt").style.backgroundColor="#fff"
+    document.querySelector(".rightt").style.backgroundColor="#fff"
+    document.querySelector(".bottomt").style.backgroundColor="#fff"
+    document.querySelector(".topt").style.backgroundColor="#fff"
+
   } else {
     document.body.style.backgroundColor = "#cecece";
+    document.querySelector(".leftt").style.backgroundColor="#000000"
+    document.querySelector(".rightt").style.backgroundColor="#000000"
+    document.querySelector(".bottomt").style.backgroundColor="#000000"
+    document.querySelector(".topt").style.backgroundColor="#000000"
   }
 }
 function timeView() {

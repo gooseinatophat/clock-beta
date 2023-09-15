@@ -1,5 +1,5 @@
 body{
-    scale: 70%;
+    scale: 40%;
     background-color: #cecece;
 }
 .frame-overlord{
@@ -259,6 +259,9 @@ cursor:grabbing;
     height: 5vw;
     border-radius: 45%;
     border: #000000 0.1vw solid;
+}
+.sky:hover{
+    
 }
 .moonsun{
     border-radius: 50%;
