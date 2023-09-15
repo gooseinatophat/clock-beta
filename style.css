@@ -122,6 +122,12 @@ body{
     height: 2.5vw;  
     font-size: 2vw;
 }
+.slot{
+    cursor: grabbing;
+}
+.slot:active{
+    cursor: grab;
+}
 
 .center{
     height: 80.6vw;
@@ -234,6 +240,11 @@ body{
     display: flex;
     font-style: italic;
     border: #000000 solid;
+    cursor: grab;
+}
+.selenp:active,.selefl:active,.selebrk:active,.selewrk:active,.selecm:active,.selempt:active,.selen:active,.seletsk:active,.selevnt:active{
+cursor:grabbing;
+
 }
 .container-btns{
     display: flex;
@@ -264,15 +275,15 @@ body{
     left: 5vw;
     background-color: #ffffff;
 }
-.night{background-color: #2a42ca94;    cursor: pointer;}
-.nap{background-color:#7583ff9f;    cursor: pointer;} 
-.break{background-color: #74c8ffc9;    cursor: pointer;}
-.fuel{background-color:#97ff9f8a ;    cursor: pointer;}  
-.commute{background-color: #ff7b00a9;  cursor: pointer;}
-.work{background-color:#ff0505b2;    cursor: pointer;}
-.empty{background-color: #cececeab;    cursor: pointer;}
-.event{background-color: #ec4edfa8;    cursor: pointer;}
-.task{background-color: #ffee00a8;    cursor: pointer;}
+.night{background-color: #2a42ca94;    }
+.nap{background-color:#7583ff9f;    } 
+.break{background-color: #74c8ffc9;    }
+.fuel{background-color:#97ff9f8a ;    }  
+.commute{background-color: #ff7b00a9; }
+.work{background-color:#ff0505b2;   }
+.empty{background-color: #cececeab;    }
+.event{background-color: #ec4edfa8;    }
+.task{background-color: #ffee00a8;    }
 
 .commute.open,.work.open,.fuel.open,.break.open,.nap.open,.empty.open,.night.open,.event.open,.task.open{
     background-color: #00000000;
