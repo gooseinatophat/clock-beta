@@ -249,7 +249,6 @@ body{
     width: 70vw;
     justify-content: space-evenly;
     align-self: center;
-    cursor: auto;
 }
 .selenp,.selefl,.selebrk,.selewrk,.selecm,.selempt,.selen,.seletsk,.selevnt{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -259,7 +258,6 @@ body{
     align-items: end;
     display: flex;
     border: #000000 solid;
-    cursor: cell;
     color: #000000;
 }
 .selenp:active,.selefl:active,.selebrk:active,.selewrk:active,.selecm:active,.selempt:active,.selen:active,.seletsk:active,.selevnt:active{
