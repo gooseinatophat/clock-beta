@@ -86,19 +86,31 @@ function openInfo() {
   }
 }
 
-function copyColor(){
+function copyColorN(){
   const night = document.querySelector(".selen");
 
   night.classList.toggle("on");
 
   if (night.classList.contains("on")) {
-    document.body.style.cursor = "copy"
-    night.style.cursor = "copy"
-
+    document.body.style.cursor = "url('cursor-n.jpg')";
+    night.style.cursor = "copy";
   } else {
-    document.body.style.cursor = "default"
-    night.style.cursor = "cell"
+    document.body.style.cursor = "default";
+    night.style.cursor = "cell";
+  }
+}
 
+function copyColorNp(){
+  const nap = document.querySelector(".selenp");
+  
+  nap.classList.toggle("on");
+
+  if (nap.classList.contains("on")) {
+    document.body.style.cursor = "url('cursor-n.jpg')";
+    nap.style.cursor = "copy";
+  } else {
+    document.body.style.cursor = "default";
+    nap.style.cursor = "cell";
   }
 }
 
