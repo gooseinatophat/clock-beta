@@ -86,6 +86,22 @@ function openInfo() {
   }
 }
 
+function copyColor(){
+  const night = document.querySelector(".selen");
+
+  night.classList.toggle("on");
+
+  if (night.classList.contains("on")) {
+    document.body.style.cursor = "copy"
+    night.style.cursor = "copy"
+
+  } else {
+    document.body.style.cursor = "default"
+    night.style.cursor = "cell"
+
+  }
+}
+
 function nightView() {
   const bSlide = document.querySelector(".moonsun");
 
