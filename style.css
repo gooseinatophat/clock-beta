@@ -139,11 +139,15 @@ body{
 }
 .slot{
     cursor: copy;
+    display: flex;
 }
 .slot:active{
     cursor: default;
 }
-
+.vi05,.vi10,.vi15{
+width: 0.8vw;
+background-color: #bd1717;
+}
 .center{
     height: 80.6vw;
     display: flex;

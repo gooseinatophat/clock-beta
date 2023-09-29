@@ -193,6 +193,16 @@ setInterval(function time() {
   if (h < 18) {
     document.querySelector(".bottomt").style.width = 0 + "%";
   }
+
+  switch (min) {
+    case (min < 5):
+
+      document.querySelector(".vi05").style.display ="flex"
+      break;
+  
+    default:
+      break;
+  }
 }, 100);
 
 function setCookie(cname,cvalue,exdays) {
@@ -221,7 +231,7 @@ function getCookie(cname) {
 function checkCookie() {
   let user = getCookie("username");
   if (user != "") {
-    alert("Welcome again " + user);
+    alert("welcome again " + user);
   } else {
      user = prompt("Please enter your name:","");
      if (user != "" && user != null) {
