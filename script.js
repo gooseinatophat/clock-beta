@@ -216,6 +216,27 @@ if (h >= 6.167){
  if (h < 6.25 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".vi15").style.display="none";
 }
+if (h >= 6.25){
+  document.querySelector(".vi15").style.animation="none";
+}
+if (h < 6.33 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vi20").style.display="none";
+}
+if (h >= 6.33){
+  document.querySelector(".vi20").style.animation="none";
+}
+if (h < 6.42 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vi25").style.display="none";
+}
+if (h >= 6.42){
+  document.querySelector(".vi25").style.animation="none";
+}
+if (h < 6.5 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vi30").style.display="none";
+}
+if (h >= 6.5){
+  document.querySelector(".vi30").style.animation="none";
+}
 
 
 
