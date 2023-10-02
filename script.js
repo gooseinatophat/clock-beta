@@ -204,12 +204,19 @@ setInterval(function time() {
  if (h < 6.083 || document.querySelector(".squedule").classList.contains("open")) {
   document.querySelector(".vi05").style.display ="none";
 }
- if (h < 6.167){
+if (h >= 6.083 ) {
+  document.querySelector(".vi05").style.animation ="none";
+}
+ if (h < 6.167 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".vi10").style.display="none";
 }
- if (h < 6.25){
+if (h >= 6.167){
+  document.querySelector(".vi10").style.animation="none";
+}
+ if (h < 6.25 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".vi15").style.display="none";
 }
+
 
 
 }, 100);
