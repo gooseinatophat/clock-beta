@@ -72,9 +72,12 @@ evnt.addEventListener("click", function () {
   chosen("slot event");
 });
 
-function openInfo() {
+/* function openInfo() {
   const click = document.querySelector(".click_me");
   const i = document.querySelector(".Index");
+
+  
+
 
   i.classList.toggle("open");
 
@@ -84,7 +87,7 @@ function openInfo() {
     click.style.display = "none";
 
   }
-}
+} */
 
 function copyColorN(){
   const night = document.querySelector(".selen");
@@ -152,6 +155,10 @@ function timeView() {
   }
 }
 
+function fullView() {
+  document.querySelector(".squedule").classList.toggle("open");
+}
+
 let s = 0;
 let min = 0;
 let h = 0;
@@ -194,18 +201,20 @@ setInterval(function time() {
     document.querySelector(".bottomt").style.width = 0 + "%";
   }
 
-  switch (min) {
-    case (min < 5):
+ if (h < 6.083 || document.querySelector(".squedule").classList.contains("open")) {
+  document.querySelector(".vi05").style.display ="none";
+}
+ if (h < 6.167){
+  document.querySelector(".vi10").style.display="none";
+}
+ if (h < 6.25){
+  document.querySelector(".vi15").style.display="none";
+}
 
-      document.querySelector(".vi05").style.display ="flex"
-      break;
-  
-    default:
-      break;
-  }
+
 }, 100);
 
-function setCookie(cname,cvalue,exdays) {
+/* function setCookie(cname,cvalue,exdays) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   let expires = "expires=" + d.toUTCString();
@@ -238,4 +247,4 @@ function checkCookie() {
        setCookie("username", user, 30);
      }
   }
-}
+} */
