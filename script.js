@@ -179,7 +179,7 @@ setInterval(function time() {
   document.querySelector(".seconds").innerHTML = d.getSeconds();
   document.querySelector(".time").innerHTML = h + ":" + min;
 
-  document.querySelector(".topt").style.width =
+ /*  document.querySelector(".topt").style.width =
     u1h * (h - 6) + min * u1min + "vw";
   document.querySelector(".rightt").style.height =
     u1h * (h - 12) + min * u1min + 3 + "vw";
@@ -199,7 +199,7 @@ setInterval(function time() {
   }
   if (h < 18) {
     document.querySelector(".bottomt").style.width = 0 + "%";
-  }
+  } */
 
 
 
@@ -636,7 +636,7 @@ if (h < 11 & min < 55 || document.querySelector(".squedule").classList.contains(
 if (h >= 11 & min >= 55 || h>=12){
   document.querySelector(".xi55").style.animation="none";
 }
-if (h < 12 || document.querySelector(".squedule").classList.contains("open")){
+if (h < 11 & min <= 59 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".xi00").style.display="none";
 }
 if (h >= 12){
