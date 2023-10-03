@@ -500,7 +500,7 @@ if (h >= 10){
 if (h < 10.083 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".x05").style.display ="none";
 }
-if (h >= 10.083 ) {
+if (h >= 10.083 ){
   document.querySelector(".x05").style.animation ="none";
 }
  if (h < 10.167 || document.querySelector(".squedule").classList.contains("open")){
@@ -644,7 +644,7 @@ if (h >= 12){
 }
 
 
-}, 100);
+}, 1000);
 
 /* function setCookie(cname,cvalue,exdays) {
   const d = new Date();
