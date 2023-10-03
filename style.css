@@ -161,6 +161,15 @@ body{
 .tick.open{
     display: none;
 }
+.tack{
+    display: flex;
+    height: 0.8vw;
+    width: 100%;
+}
+.tock{
+    display: flex;
+    flex-direction: column;
+}
 .center{
     height: 80.6vw;
     display: flex;
