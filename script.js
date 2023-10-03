@@ -8,6 +8,7 @@ function displayer() {
   const slp = document.querySelectorAll(".night");
   const tsk = document.querySelectorAll(".task");
   const vnt = document.querySelectorAll(".event");
+  const tick = document.querySelectorAll(".tick");
 
   wrk.forEach((wrks) => {wrks.classList.toggle("open"); });
   opn.forEach((opns) => {opns.classList.toggle("open");});
@@ -18,6 +19,7 @@ function displayer() {
   slp.forEach((slps) => {slps.classList.toggle("open");});
   tsk.forEach((tsks) => {tsks.classList.toggle("open");});
   vnt.forEach((vnts) => {vnts.classList.toggle("open");});
+  tick.forEach((ticks) => {ticks.classList.toggle("open");});
 
   document.querySelector(".left").classList.toggle("open");
   document.querySelector(".right").classList.toggle("open");
@@ -72,24 +74,8 @@ evnt.addEventListener("click", function () {
   chosen("slot event");
 });
 
-/* function openInfo() {
-  const click = document.querySelector(".click_me");
-  const i = document.querySelector(".Index");
 
-  
-
-
-  i.classList.toggle("open");
-
-  if (i.classList.contains("open")) {
-    click.style.display = "flex";
-  } else {
-    click.style.display = "none";
-
-  }
-} */
-
-function copyColorN(){
+/* function copyColorN(){
   const night = document.querySelector(".selen");
 
   night.classList.toggle("on");
@@ -115,7 +101,7 @@ function copyColorNp(){
     document.body.style.cursor = "default";
     nap.style.cursor = "url('cursor-n.jpg')";
   }
-}
+} */
 
 function nightView() {
   const bSlide = document.querySelector(".moonsun");
@@ -156,7 +142,8 @@ function timeView() {
 }
 
 function fullView() {
-  document.querySelector(".squedule").classList.toggle("open");
+  const tick = document.querySelectorAll(".tick");
+  tick.forEach((ticks) => {ticks.classList.toggle("open");});  
 }
 
 let s = 0;

@@ -147,7 +147,7 @@ body{
 .slot:active{
     cursor: default;
 }
-.vi05,.vi10,.vi15,.vi20,.vi25,.vi30,.vi35,.vi40,.vi45,.vi50,.vi55,.vi00,.vii05,.vii10,.vii15,.vii20,.vii25,.vii30,.vii35,.vii40,.vii45,.vii50,.vii55,.vii00,.viii05,.viii10,.viii15,.viii20,.viii25,.viii30,.viii35,.viii40,.viii45,.viii50,.viii55,.viii00,.ix05,.ix10,.ix15,.ix20,.ix25,.ix30,.ix35,.ix40,.ix45,.ix50,.ix55,.ix00,.x05,.x10,.x15,.x20,.x25,.x30,.x35,.x40,.x45,.x50,.x55,.x00,.xi05,.xi10,.xi15,.xi20,.xi25,.xi30,.xi35,.xi40,.xi45,.xi50,.xi55,.xi00{
+.tick,.vi05,.vi10,.vi15,.vi20,.vi25,.vi30,.vi35,.vi40,.vi45,.vi50,.vi55,.vi00,.vii05,.vii10,.vii15,.vii20,.vii25,.vii30,.vii35,.vii40,.vii45,.vii50,.vii55,.vii00,.viii05,.viii10,.viii15,.viii20,.viii25,.viii30,.viii35,.viii40,.viii45,.viii50,.viii55,.viii00,.ix05,.ix10,.ix15,.ix20,.ix25,.ix30,.ix35,.ix40,.ix45,.ix50,.ix55,.ix00,.x05,.x10,.x15,.x20,.x25,.x30,.x35,.x40,.x45,.x50,.x55,.x00,.xi05,.xi10,.xi15,.xi20,.xi25,.xi30,.xi35,.xi40,.xi45,.xi50,.xi55,.xi00{
     width: 0.8vw;
     display: flex;
     border: #838383 solid 0.05vw;
@@ -158,7 +158,9 @@ body{
     from{background-color: #e2e2e2;}
     to{background-color: #5c5c5c;}
 }
-
+.tick.open{
+    display: none;
+}
 .center{
     height: 80.6vw;
     display: flex;
