@@ -504,7 +504,7 @@ if (h >= 10.083 ){
   document.querySelector(".x05").style.animation ="none";
 }
  if (h < 10.167 || document.querySelector(".squedule").classList.contains("open")){
-  documen10.querySelector(".x10").style.display="none";
+  document.querySelector(".x10").style.display="none";
 }
 if (h >= 10.167){
   document.querySelector(".x10").style.animation="none";
@@ -570,70 +570,70 @@ if (h >= 11){
   document.querySelector(".x00").style.animation="none";
 }
 
-if (h < 11.083 || document.querySelector(".squedule").classList.contains("open")){
+if ( h < 11 & min < 5 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".xi05").style.display ="none";
 }
-if (h >= 11.083 ) {
+if ( h >= 11 & min >= 5 || h >=12 ){
   document.querySelector(".xi05").style.animation ="none";
 }
- if (h < 11.167 || document.querySelector(".squedule").classList.contains("open")){
+ if (h < 11 & min < 10 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".xi10").style.display="none";
 }
-if (h >= 11.167){
+if (h >= 11 & min >= 10 || h >= 12){
   document.querySelector(".xi10").style.animation="none";
 }
- if (h < 11.25 || document.querySelector(".squedule").classList.contains("open")){
+ if (h*60 + min < 675 || h < 11 & min < 15 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".xi15").style.display="none";
 }
-if (h >= 11.25){
+if (h >= 11 & min >= 15 || h >= 12){
   document.querySelector(".xi15").style.animation="none";
 }
-if (h < 11.33 || document.querySelector(".squedule").classList.contains("open")){
+if (h < 11 & min < 20 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".xi20").style.display="none";
 }
-if (h >= 11.33){
+if (h >= 11 & min >= 20 || h >= 12){
   document.querySelector(".xi20").style.animation="none";
 }
-if (h < 11.42 || document.querySelector(".squedule").classList.contains("open")){
+if (h < 11 & min < 25 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".xi25").style.display="none";
 }
-if (h >= 11.42){
+if (h >= 11 & min >= 25 || h >= 12){
   document.querySelector(".xi25").style.animation="none";
 }
-if (h < 11.5 || document.querySelector(".squedule").classList.contains("open")){
+if (h < 11 & min <30 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".xi30").style.display="none";
 }
-if (h >= 11.5){
+if (h >= 11 & min >= 30 || h>=12){
   document.querySelector(".xi30").style.animation="none";
 }
-if (h < 11.583 || document.querySelector(".squedule").classList.contains("open")){
+if (h < 11 & min < 35 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".xi35").style.display="none";
 }
-if (h >= 11.583){
+if (h >= 11 & min >=35 || h>=12){
   document.querySelector(".xi35").style.animation="none";
 }
-if (h < 11.67 || document.querySelector(".squedule").classList.contains("open")){
+if (h < 11 & min< 40 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".xi40").style.display="none";
 }
-if (h >= 11.67){
+if (h >= 11 & min >= 40 || h>=12){
   document.querySelector(".xi40").style.animation="none";
 }
-if (h < 11.75 || document.querySelector(".squedule").classList.contains("open")){
+if (h < 11 & min < 45 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".xi45").style.display="none";
 }
-if (h >= 11.75){
+if (h >= 11 & min >=45 || h>=12){
   document.querySelector(".xi45").style.animation="none";
 }
-if (h < 11.83 || document.querySelector(".squedule").classList.contains("open")){
+if (h < 11 & min <50 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".xi50").style.display="none";
 }
-if (h >= 11.83){
+if (h >= 11 & min >= 50 || h >= 12){
   document.querySelector(".xi50").style.animation="none";
 }
-if (h < 11.92 || document.querySelector(".squedule").classList.contains("open")){
+if (h < 11 & min < 55 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".xi55").style.display="none";
 }
-if (h >= 11.92){
+if (h >= 11 & min >= 55 || h>=12){
   document.querySelector(".xi55").style.animation="none";
 }
 if (h < 12 || document.querySelector(".squedule").classList.contains("open")){
