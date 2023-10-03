@@ -201,6 +201,8 @@ setInterval(function time() {
     document.querySelector(".bottomt").style.width = 0 + "%";
   }
 
+
+
  if (h < 6.083 || document.querySelector(".squedule").classList.contains("open")) {
   document.querySelector(".vi05").style.display ="none";
 }
@@ -237,7 +239,409 @@ if (h < 6.5 || document.querySelector(".squedule").classList.contains("open")){
 if (h >= 6.5){
   document.querySelector(".vi30").style.animation="none";
 }
+if (h < 6.583 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vi35").style.display="none";
+}
+if (h >= 6.583){
+  document.querySelector(".vi35").style.animation="none";
+}
+if (h < 6.67 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vi40").style.display="none";
+}
+if (h >= 6.67){
+  document.querySelector(".vi40").style.animation="none";
+}
+if (h < 6.75 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vi45").style.display="none";
+}
+if (h >= 6.75){
+  document.querySelector(".vi45").style.animation="none";
+}
+if (h < 6.83 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vi50").style.display="none";
+}
+if (h >= 6.83){
+  document.querySelector(".vi50").style.animation="none";
+}
+if (h < 6.92 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vi55").style.display="none";
+}
+if (h >= 6.92){
+  document.querySelector(".vi55").style.animation="none";
+}
+if (h < 7 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vi00").style.display="none";
+}
+if (h >= 7){
+  document.querySelector(".vi00").style.animation="none";
+}
+if (h < 7.083 || document.querySelector(".squedule").classList.contains("open")) {
+  document.querySelector(".vii05").style.display ="none";
+}
+if (h >= 7.083 ) {
+  document.querySelector(".vii05").style.animation ="none";
+}
+ if (h < 7.167 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vii10").style.display="none";
+}
+if (h >= 7.167){
+  document.querySelector(".vii10").style.animation="none";
+}
+ if (h < 7.25 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vii15").style.display="none";
+}
+if (h >= 7.25){
+  document.querySelector(".vii15").style.animation="none";
+}
+if (h < 7.33 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vii20").style.display="none";
+}
+if (h >= 7.33){
+  document.querySelector(".vii20").style.animation="none";
+}
+if (h < 7.42 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vii25").style.display="none";
+}
+if (h >= 7.42){
+  document.querySelector(".vii25").style.animation="none";
+}
+if (h < 7.5 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vii30").style.display="none";
+}
+if (h >= 7.5){
+  document.querySelector(".vii30").style.animation="none";
+}
+if (h < 7.583 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vii35").style.display="none";
+}
+if (h >= 7.583){
+  document.querySelector(".vii35").style.animation="none";
+}
+if (h < 7.67 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vii40").style.display="none";
+}
+if (h >= 7.67){
+  document.querySelector(".vii40").style.animation="none";
+}
+if (h < 7.75 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vii45").style.display="none";
+}
+if (h >= 7.75){
+  document.querySelector(".vii45").style.animation="none";
+}
+if (h < 7.83 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vii50").style.display="none";
+}
+if (h >= 7.83){
+  document.querySelector(".vii50").style.animation="none";
+}
+if (h < 7.92 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vii55").style.display="none";
+}
+if (h >= 7.92){
+  document.querySelector(".vii55").style.animation="none";
+}
+if (h < 8 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".vii00").style.display="none";
+}
+if (h >= 8){
+  document.querySelector(".vii00").style.animation="none";
+}
 
+
+if (h < 8.083 || document.querySelector(".squedule").classList.contains("open")) {
+  document.querySelector(".viii05").style.display ="none";
+}
+if (h >= 8.083 ) {
+  document.querySelector(".viii05").style.animation ="none";
+}
+ if (h < 8.167 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".viii10").style.display="none";
+}
+if (h >= 8.167){
+  document.querySelector(".viii10").style.animation="none";
+}
+ if (h < 8.25 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".viii15").style.display="none";
+}
+if (h >= 8.25){
+  document.querySelector(".viii15").style.animation="none";
+}
+if (h < 8.33 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".viii20").style.display="none";
+}
+if (h >= 8.33){
+  document.querySelector(".viii20").style.animation="none";
+}
+if (h < 8.42 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".viii25").style.display="none";
+}
+if (h >= 8.42){
+  document.querySelector(".viii25").style.animation="none";
+}
+if (h < 8.5 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".viii30").style.display="none";
+}
+if (h >= 8.5){
+  document.querySelector(".viii30").style.animation="none";
+}
+if (h < 8.583 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".viii35").style.display="none";
+}
+if (h >= 8.583){
+  document.querySelector(".viii35").style.animation="none";
+}
+if (h < 8.67 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".viii40").style.display="none";
+}
+if (h >= 8.67){
+  document.querySelector(".viii40").style.animation="none";
+}
+if (h < 8.75 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".viii45").style.display="none";
+}
+if (h >= 8.75){
+  document.querySelector(".viii45").style.animation="none";
+}
+if (h < 8.83 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".viii50").style.display="none";
+}
+if (h >= 8.83){
+  document.querySelector(".viii50").style.animation="none";
+}
+if (h < 8.92 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".viii55").style.display="none";
+}
+if (h >= 8.92){
+  document.querySelector(".viii55").style.animation="none";
+}
+if (h < 9 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".viii00").style.display="none";
+}
+if (h >= 9){
+  document.querySelector(".viii00").style.animation="none";
+}
+
+
+
+if (h < 9.083 || document.querySelector(".squedule").classList.contains("open")) {
+  document.querySelector(".ix05").style.display ="none";
+}
+if (h >= 9.083 ) {
+  document.querySelector(".ix05").style.animation ="none";
+}
+ if (h < 9.167 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".ix10").style.display="none";
+}
+if (h >= 9.167){
+  document.querySelector(".ix10").style.animation="none";
+}
+ if (h < 9.25 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".ix15").style.display="none";
+}
+if (h >= 9.25){
+  document.querySelector(".ix15").style.animation="none";
+}
+if (h < 9.33 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".ix20").style.display="none";
+}
+if (h >= 9.33){
+  document.querySelector(".ix20").style.animation="none";
+}
+if (h < 9.42 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".ix25").style.display="none";
+}
+if (h >= 9.42){
+  document.querySelector(".ix25").style.animation="none";
+}
+if (h < 9.5 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".ix30").style.display="none";
+}
+if (h >= 9.5){
+  document.querySelector(".ix30").style.animation="none";
+}
+if (h < 9.583 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".ix35").style.display="none";
+}
+if (h >= 9.583){
+  document.querySelector(".ix35").style.animation="none";
+}
+if (h < 9.67 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".ix40").style.display="none";
+}
+if (h >= 9.67){
+  document.querySelector(".ix40").style.animation="none";
+}
+if (h < 9.75 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".ix45").style.display="none";
+}
+if (h >= 9.75){
+  document.querySelector(".ix45").style.animation="none";
+}
+if (h < 9.83 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".ix50").style.display="none";
+}
+if (h >= 9.83){
+  document.querySelector(".ix50").style.animation="none";
+}
+if (h < 9.92 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".ix55").style.display="none";
+}
+if (h >= 9.92){
+  document.querySelector(".ix55").style.animation="none";
+}
+if (h < 10 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".ix00").style.display="none";
+}
+if (h >= 10){
+  document.querySelector(".ix00").style.animation="none";
+}
+
+if (h < 10.083 || document.querySelector(".squedule").classList.contains("open")) {
+  document.querySelector(".x05").style.display ="none";
+}
+if (h >= 10.083 ) {
+  document.querySelector(".x05").style.animation ="none";
+}
+ if (h < 10.167 || document.querySelector(".squedule").classList.contains("open")){
+  documen10.querySelector(".x10").style.display="none";
+}
+if (h >= 10.167){
+  document.querySelector(".x10").style.animation="none";
+}
+ if (h < 10.25 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".x15").style.display="none";
+}
+if (h >= 10.25){
+  document.querySelector(".x15").style.animation="none";
+}
+if (h < 10.33 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".x20").style.display="none";
+}
+if (h >= 10.33){
+  document.querySelector(".x20").style.animation="none";
+}
+if (h < 10.42 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".x25").style.display="none";
+}
+if (h >= 10.42){
+  document.querySelector(".x25").style.animation="none";
+}
+if (h < 10.5 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".x30").style.display="none";
+}
+if (h >= 10.5){
+  document.querySelector(".x30").style.animation="none";
+}
+if (h < 10.583 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".x35").style.display="none";
+}
+if (h >= 10.583){
+  document.querySelector(".x35").style.animation="none";
+}
+if (h < 10.67 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".x40").style.display="none";
+}
+if (h >= 10.67){
+  document.querySelector(".x40").style.animation="none";
+}
+if (h < 10.75 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".x45").style.display="none";
+}
+if (h >= 10.75){
+  document.querySelector(".x45").style.animation="none";
+}
+if (h < 10.83 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".x50").style.display="none";
+}
+if (h >= 10.83){
+  document.querySelector(".x50").style.animation="none";
+}
+if (h < 10.92 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".x55").style.display="none";
+}
+if (h >= 10.92){
+  document.querySelector(".x55").style.animation="none";
+}
+if (h < 11 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".x00").style.display="none";
+}
+if (h >= 11){
+  document.querySelector(".x00").style.animation="none";
+}
+
+if (h < 11.083 || document.querySelector(".squedule").classList.contains("open")) {
+  document.querySelector(".xi05").style.display ="none";
+}
+if (h >= 11.083 ) {
+  document.querySelector(".xi05").style.animation ="none";
+}
+ if (h < 11.167 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".xi10").style.display="none";
+}
+if (h >= 11.167){
+  document.querySelector(".xi10").style.animation="none";
+}
+ if (h < 11.25 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".xi15").style.display="none";
+}
+if (h >= 11.25){
+  document.querySelector(".xi15").style.animation="none";
+}
+if (h < 11.33 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".xi20").style.display="none";
+}
+if (h >= 11.33){
+  document.querySelector(".xi20").style.animation="none";
+}
+if (h < 11.42 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".xi25").style.display="none";
+}
+if (h >= 11.42){
+  document.querySelector(".xi25").style.animation="none";
+}
+if (h < 11.5 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".xi30").style.display="none";
+}
+if (h >= 11.5){
+  document.querySelector(".xi30").style.animation="none";
+}
+if (h < 11.583 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".xi35").style.display="none";
+}
+if (h >= 11.583){
+  document.querySelector(".xi35").style.animation="none";
+}
+if (h < 11.67 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".xi40").style.display="none";
+}
+if (h >= 11.67){
+  document.querySelector(".xi40").style.animation="none";
+}
+if (h < 11.75 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".xi45").style.display="none";
+}
+if (h >= 11.75){
+  document.querySelector(".xi45").style.animation="none";
+}
+if (h < 11.83 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".xi50").style.display="none";
+}
+if (h >= 11.83){
+  document.querySelector(".xi50").style.animation="none";
+}
+if (h < 11.92 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".xi55").style.display="none";
+}
+if (h >= 11.92){
+  document.querySelector(".xi55").style.animation="none";
+}
+if (h < 12 || document.querySelector(".squedule").classList.contains("open")){
+  document.querySelector(".xi00").style.display="none";
+}
+if (h >= 12){
+  document.querySelector(".xi00").style.animation="none";
+}
 
 
 }, 100);
