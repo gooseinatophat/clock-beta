@@ -203,7 +203,7 @@ setInterval(function time() {
 
 
 
- if (h < 6.083 || document.querySelector(".squedule").classList.contains("open")) {
+ if (h < 6.083 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".vi05").style.display ="none";
 }
 if (h >= 6.083 ) {
@@ -275,7 +275,7 @@ if (h < 7 || document.querySelector(".squedule").classList.contains("open")){
 if (h >= 7){
   document.querySelector(".vi00").style.animation="none";
 }
-if (h < 7.083 || document.querySelector(".squedule").classList.contains("open")) {
+if (h < 7.083 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".vii05").style.display ="none";
 }
 if (h >= 7.083 ) {
@@ -349,7 +349,7 @@ if (h >= 8){
 }
 
 
-if (h < 8.083 || document.querySelector(".squedule").classList.contains("open")) {
+if (h < 8.083 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".viii05").style.display ="none";
 }
 if (h >= 8.083 ) {
@@ -424,7 +424,7 @@ if (h >= 9){
 
 
 
-if (h < 9.083 || document.querySelector(".squedule").classList.contains("open")) {
+if (h < 9.083 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".ix05").style.display ="none";
 }
 if (h >= 9.083 ) {
@@ -497,7 +497,7 @@ if (h >= 10){
   document.querySelector(".ix00").style.animation="none";
 }
 
-if (h < 10.083 || document.querySelector(".squedule").classList.contains("open")) {
+if (h < 10.083 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".x05").style.display ="none";
 }
 if (h >= 10.083 ) {
@@ -570,7 +570,7 @@ if (h >= 11){
   document.querySelector(".x00").style.animation="none";
 }
 
-if (h < 11.083 || document.querySelector(".squedule").classList.contains("open")) {
+if (h < 11.083 || document.querySelector(".squedule").classList.contains("open")){
   document.querySelector(".xi05").style.display ="none";
 }
 if (h >= 11.083 ) {
