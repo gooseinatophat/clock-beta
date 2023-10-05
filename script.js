@@ -631,73 +631,73 @@ if (h >= 12){
 }
 
 
-if ( h < 12 & min < 5 & h != 13 & h < 13){
+if ( h <= 12 & min < 5 & h != 13 & h < 13){
   document.querySelector(".xii05").style.display ="none";
 }
 if ( h >= 12 & min >= 5 || h >=13 ){
   document.querySelector(".xii05").style.animation ="none";
 }
- if (h < 12 & min < 10 & h != 13 & h < 13){
+ if (h <= 12 & min < 10 & h != 13 & h < 13){
   document.querySelector(".xii10").style.display="none";
 }
 if (h >= 12 & min >= 10 || h >= 13){
   document.querySelector(".xii10").style.animation="none";
 }
- if (h < 12 & min < 15 & h != 13 & h < 13){
+ if (h <= 12 & min < 15 & h != 13 & h < 13){
   document.querySelector(".xii15").style.display="none";
 }
 if (h >= 12 & min >= 15 || h >= 13){
   document.querySelector(".xii15").style.animation="none";
 }
-if (h < 12 & min < 20 & h != 13 & h < 13){
+if (h <= 12 & min < 20 & h != 13 & h < 13){
   document.querySelector(".xii20").style.display="none";
 }
 if (h >= 12 & min >= 20 || h >= 13){
   document.querySelector(".xii20").style.animation="none";
 }
-if (h < 12 & min < 25 & h != 13 & h < 13 ){
+if (h <= 12 & min < 25 & h != 13 & h < 13 ){
   document.querySelector(".xii25").style.display="none";
 }
 if (h >= 12 & min >= 25 || h >= 13){
   document.querySelector(".xii25").style.animation="none";
 }
-if (h < 12 & min <30 & h != 13 & h < 13){
+if (h <= 12 & min <30 & h != 13 & h < 13){
   document.querySelector(".xii30").style.display="none";
 }
-if (h >= 12 & min >= 30 || h>=13){
+if (h >= 12 & min >= 30 || h >= 13){
   document.querySelector(".xii30").style.animation="none";
 }
-if (h < 12 & min < 35 & h != 13 & h < 13){
+if (h <= 12 & min < 35 & h != 13 & h < 13){
   document.querySelector(".xii35").style.display="none";
 }
-if (h >= 12 & min >=35 || h>=13){
+if (h >= 12 & min >=35 || h >= 13){
   document.querySelector(".xii35").style.animation="none";
 }
-if (h < 12 & min< 40 & h != 13 & h < 13){
+if (h <= 12 & min < 40 & h != 13 & h < 13){
   document.querySelector(".xii40").style.display="none";
 }
-if (h >= 12 & min >= 40 || h>=13){
+if (h >= 12 & min >= 40 || h >= 13){
   document.querySelector(".xii40").style.animation="none";
 }
-if (h < 12 & min < 45  & h != 13 & h < 13){
+if (h <= 12 & min < 45 & h != 13 & h < 13){
   document.querySelector(".xii45").style.display="none";
 }
-if (h >= 12 & min >=45 || h>=13){
+if (h >= 12 & min >= 45 || h >= 13){
   document.querySelector(".xii45").style.animation="none";
 }
-if (h < 12 & min <50  & h != 13 & h < 13){
+if (h <= 12 & min < 50 & h != 13 & h < 13){
   document.querySelector(".xii50").style.display="none";
 }
 if (h >= 12 & min >= 50 || h >= 13){
   document.querySelector(".xii50").style.animation="none";
 }
-if (h < 12 & min < 55 & h != 13 & h < 13){
+if (h <= 12 & min < 55 & h != 13 & h < 13){
   document.querySelector(".xii55").style.display="none";
 }
-if (h >= 12 & min >= 55 || h>=13){
+if (h >= 12 & min >= 55 || h >= 13){
   document.querySelector(".xii55").style.animation="none";
 }
-if (h < 12 & min <= 59  & h != 13 & h < 13){
+if (h <= 12 & min <= 59  & h != 13 & h < 13){
   document.querySelector(".xii00").style.display="none";
 }
 if (h >= 13){
