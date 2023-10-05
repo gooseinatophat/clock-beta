@@ -557,16 +557,16 @@ if (h >= 11){
   document.querySelector(".x00").style.animation="none";
 }
 
-if ( h < 11 & min < 5){
+if ( h < 11 && min < 5){
   document.querySelector(".xi05").style.display ="none";
 }
-if ( h >= 11 & min >= 5 || h >=12 ){
+if ( h >= 11 && min >= 5 || h >=12 ){
   document.querySelector(".xi05").style.animation ="none";
 }
- if (h < 11 & min < 10){
+ if (h < 11 && min < 10){
   document.querySelector(".xi10").style.display="none";
 }
-if (h >= 11 & min >= 10 || h >= 12){
+if (h >= 11 && min >= 10 || h >= 12){
   document.querySelector(".xi10").style.animation="none";
 }
  if (h*60 + min < 675 || h < 11 & min < 15){
@@ -705,1483 +705,817 @@ if (h >= 13){
 }
 
 
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
+if ( h < 13 & min < 5){
+  document.querySelector(".xiii05").style.display ="none";
 }
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
+if ( h >= 13 & min >= 5 || h >=14 ){
+  document.querySelector(".xiii05").style.animation ="none";
 }
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
+ if (h < 13 & min < 10){
+  document.querySelector(".xiii10").style.display="none";
 }
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
+if (h >= 13 & min >= 10 || h >= 14){
+  document.querySelector(".xiii10").style.animation="none";
 }
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
+ if (h < 13 & min < 15){
+  document.querySelector(".xiii15").style.display="none";
 }
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
+if (h >= 13 & min >= 15 || h >= 14){
+  document.querySelector(".xiii15").style.animation="none";
 }
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
+if (h < 13 & min < 20){
+  document.querySelector(".xiii20").style.display="none";
 }
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
+if (h >= 13 & min >= 20 || h >= 14){
+  document.querySelector(".xiii20").style.animation="none";
 }
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
+if (h < 13 & min < 25 ){
+  document.querySelector(".xiii25").style.display="none";
 }
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
+if (h >= 13 & min >= 25 || h >= 14){
+  document.querySelector(".xiii25").style.animation="none";
 }
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
+if (h < 13 & min <30){
+  document.querySelector(".xiii30").style.display="none";
 }
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
+if (h >= 13 & min >= 30 || h>=14){
+  document.querySelector(".xiii30").style.animation="none";
 }
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
+if (h < 13 & min < 35){
+  document.querySelector(".xiii35").style.display="none";
 }
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
+if (h >= 13 & min >=35 || h>=14){
+  document.querySelector(".xiii35").style.animation="none";
 }
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
+if (h < 13 & min< 40){
+  document.querySelector(".xiii40").style.display="none";
 }
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
+if (h >= 13 & min >= 40 || h>=14){
+  document.querySelector(".xiii40").style.animation="none";
 }
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
+if (h < 13 & min < 45 ){
+  document.querySelector(".xiii45").style.display="none";
 }
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
+if (h >= 13 & min >=45 || h>=14){
+  document.querySelector(".xiii45").style.animation="none";
 }
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
+if (h < 13 & min <50 ){
+  document.querySelector(".xiii50").style.display="none";
 }
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
+if (h >= 13 & min >= 50 || h >= 14){
+  document.querySelector(".xiii50").style.animation="none";
 }
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
+if (h < 13 & min < 55){
+  document.querySelector(".xiii55").style.display="none";
 }
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
+if (h >= 13 & min >= 55 || h>=14){
+  document.querySelector(".xiii55").style.animation="none";
 }
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
+if (h < 13 & min <= 59 ){
+  document.querySelector(".xiii00").style.display="none";
 }
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
-}
-
-
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
-}
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
-}
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
-}
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
-}
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
-}
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
-}
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
-}
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
-}
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
-}
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
-}
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
-}
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
-}
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
-}
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
-}
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
-}
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
-}
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
-}
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
-}
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
-}
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
-}
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
-}
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
-}
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
-}
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
+if (h >= 14){
+  document.querySelector(".xiii00").style.animation="none";
 }
 
 
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
+if ( h < 14 & min < 5){
+  document.querySelector(".xiv05").style.display ="none";
 }
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
+if ( h >= 14 & min >= 5 || h >=15 ){
+  document.querySelector(".xiv05").style.animation ="none";
 }
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
+ if (h < 14 & min < 10){
+  document.querySelector(".xiv10").style.display="none";
 }
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
+if (h >= 14 & min >= 10 || h >= 15){
+  document.querySelector(".xiv10").style.animation="none";
 }
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
+ if (h < 14 & min < 15){
+  document.querySelector(".xiv15").style.display="none";
 }
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
+if (h >= 14 & min >= 15 || h >= 15){
+  document.querySelector(".xiv15").style.animation="none";
 }
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
+if (h < 14 & min < 20){
+  document.querySelector(".xiv20").style.display="none";
 }
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
+if (h >= 14 & min >= 20 || h >= 15){
+  document.querySelector(".xiv20").style.animation="none";
 }
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
+if (h < 14 & min < 25 ){
+  document.querySelector(".xiv25").style.display="none";
 }
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
+if (h >= 14 & min >= 25 || h >= 15){
+  document.querySelector(".xiv25").style.animation="none";
 }
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
+if (h < 14 & min <30){
+  document.querySelector(".xiv30").style.display="none";
 }
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
+if (h >= 14 & min >= 30 || h>=15){
+  document.querySelector(".xiv30").style.animation="none";
 }
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
+if (h < 14 & min < 35){
+  document.querySelector(".xiv35").style.display="none";
 }
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
+if (h >= 14 & min >=35 || h>=15){
+  document.querySelector(".xiv35").style.animation="none";
 }
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
+if (h < 14 & min< 40){
+  document.querySelector(".xiv40").style.display="none";
 }
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
+if (h >= 14 & min >= 40 || h>=15){
+  document.querySelector(".xiv40").style.animation="none";
 }
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
+if (h < 14 & min < 45 ){
+  document.querySelector(".xiv45").style.display="none";
 }
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
+if (h >= 14 & min >=45 || h>=15){
+  document.querySelector(".xiv45").style.animation="none";
 }
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
+if (h < 14 & min <50 ){
+  document.querySelector(".xiv50").style.display="none";
 }
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
+if (h >= 14 & min >= 50 || h >= 15){
+  document.querySelector(".xiv50").style.animation="none";
 }
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
+if (h < 14 & min < 55){
+  document.querySelector(".xiv55").style.display="none";
 }
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
+if (h >= 14 & min >= 55 || h>=15){
+  document.querySelector(".xiv55").style.animation="none";
 }
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
+if (h < 14 & min <= 59 ){
+  document.querySelector(".xiv00").style.display="none";
 }
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
-}
-
-
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
-}
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
-}
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
-}
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
-}
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
-}
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
-}
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
-}
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
-}
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
-}
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
-}
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
-}
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
-}
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
-}
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
-}
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
-}
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
-}
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
-}
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
-}
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
-}
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
-}
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
-}
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
-}
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
-}
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
+if (h >= 15){
+  document.querySelector(".xiv00").style.animation="none";
 }
 
 
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
+if ( h < 15 & min < 5){
+  document.querySelector(".xv05").style.display ="none";
 }
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
+if ( h >= 15 & min >= 5 || h >=16 ){
+  document.querySelector(".xv05").style.animation ="none";
 }
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
+ if (h < 15 & min < 10){
+  document.querySelector(".xv10").style.display="none";
 }
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
+if (h >= 15 & min >= 10 || h >= 16){
+  document.querySelector(".xv10").style.animation="none";
 }
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
+ if (h < 15 & min < 15){
+  document.querySelector(".xv15").style.display="none";
 }
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
+if (h >= 15 & min >= 15 || h >= 16){
+  document.querySelector(".xv15").style.animation="none";
 }
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
+if (h < 15 & min < 20){
+  document.querySelector(".xv20").style.display="none";
 }
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
+if (h >= 15 & min >= 20 || h >= 16){
+  document.querySelector(".xv20").style.animation="none";
 }
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
+if (h < 15 & min < 25 ){
+  document.querySelector(".xv25").style.display="none";
 }
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
+if (h >= 15 & min >= 25 || h >= 16){
+  document.querySelector(".xv25").style.animation="none";
 }
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
+if (h < 15 & min <30){
+  document.querySelector(".xv30").style.display="none";
 }
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
+if (h >= 15 & min >= 30 || h>=16){
+  document.querySelector(".xv30").style.animation="none";
 }
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
+if (h < 15 & min < 35){
+  document.querySelector(".xv35").style.display="none";
 }
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
+if (h >= 15 & min >=35 || h>=16){
+  document.querySelector(".xv35").style.animation="none";
 }
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
+if (h < 15 & min< 40){
+  document.querySelector(".xv40").style.display="none";
 }
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
+if (h >= 15 & min >= 40 || h>=16){
+  document.querySelector(".xv40").style.animation="none";
 }
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
+if (h < 15 & min < 45 ){
+  document.querySelector(".xv45").style.display="none";
 }
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
+if (h >= 15 & min >=45 || h>=16){
+  document.querySelector(".xv45").style.animation="none";
 }
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
+if (h < 15 & min <50 ){
+  document.querySelector(".xv50").style.display="none";
 }
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
+if (h >= 15 & min >= 50 || h >= 16){
+  document.querySelector(".xv50").style.animation="none";
 }
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
+if (h < 15 & min < 55){
+  document.querySelector(".xv55").style.display="none";
 }
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
+if (h >= 15 & min >= 55 || h>=16){
+  document.querySelector(".xv55").style.animation="none";
 }
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
+if (h < 15 & min <= 59 ){
+  document.querySelector(".xv00").style.display="none";
 }
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
-}
-
-
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
-}
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
-}
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
-}
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
-}
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
-}
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
-}
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
-}
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
-}
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
-}
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
-}
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
-}
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
-}
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
-}
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
-}
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
-}
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
-}
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
-}
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
-}
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
-}
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
-}
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
-}
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
-}
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
-}
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
+if (h >= 16){
+  document.querySelector(".xv00").style.animation="none";
 }
 
 
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
+if ( h < 16 & min < 5){
+  document.querySelector(".xvi05").style.display ="none";
 }
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
+if ( h >= 16 & min >= 5 || h >=17 ){
+  document.querySelector(".xvi05").style.animation ="none";
 }
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
+ if (h < 16 & min < 10){
+  document.querySelector(".xvi10").style.display="none";
 }
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
+if (h >= 16 & min >= 10 || h >= 17){
+  document.querySelector(".xvi10").style.animation="none";
 }
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
+ if (h < 16 & min < 15){
+  document.querySelector(".xvi15").style.display="none";
 }
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
+if (h >= 16 & min >= 15 || h >= 17){
+  document.querySelector(".xvi15").style.animation="none";
 }
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
+if (h < 16 & min < 20){
+  document.querySelector(".xvi20").style.display="none";
 }
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
+if (h >= 16 & min >= 20 || h >= 17){
+  document.querySelector(".xvi20").style.animation="none";
 }
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
+if (h < 16 & min < 25 ){
+  document.querySelector(".xvi25").style.display="none";
 }
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
+if (h >= 16 & min >= 25 || h >= 17){
+  document.querySelector(".xvi25").style.animation="none";
 }
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
+if (h < 16 & min <30){
+  document.querySelector(".xvi30").style.display="none";
 }
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
+if (h >= 16 & min >= 30 || h>=17){
+  document.querySelector(".xvi30").style.animation="none";
 }
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
+if (h < 16 & min < 35){
+  document.querySelector(".xvi35").style.display="none";
 }
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
+if (h >= 16 & min >=35 || h>=17){
+  document.querySelector(".xvi35").style.animation="none";
 }
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
+if (h < 16 & min< 40){
+  document.querySelector(".xvi40").style.display="none";
 }
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
+if (h >= 16 & min >= 40 || h>=17){
+  document.querySelector(".xvi40").style.animation="none";
 }
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
+if (h < 16 & min < 45 ){
+  document.querySelector(".xvi45").style.display="none";
 }
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
+if (h >= 16 & min >=45 || h>=17){
+  document.querySelector(".xvi45").style.animation="none";
 }
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
+if (h < 16 & min <50 ){
+  document.querySelector(".xvi50").style.display="none";
 }
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
+if (h >= 16 & min >= 50 || h >= 17){
+  document.querySelector(".xvi50").style.animation="none";
 }
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
+if (h < 16 & min < 55){
+  document.querySelector(".xvi55").style.display="none";
 }
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
+if (h >= 16 & min >= 55 || h>=17){
+  document.querySelector(".xvi55").style.animation="none";
 }
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
+if (h < 16 & min <= 59 ){
+  document.querySelector(".xvi00").style.display="none";
 }
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
-}
-
-
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
-}
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
-}
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
-}
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
-}
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
-}
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
-}
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
-}
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
-}
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
-}
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
-}
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
-}
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
-}
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
-}
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
-}
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
-}
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
-}
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
-}
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
-}
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
-}
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
-}
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
-}
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
-}
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
-}
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
+if (h >= 17){
+  document.querySelector(".xvi00").style.animation="none";
 }
 
 
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
+if ( h < 17 & min < 5){
+  document.querySelector(".xvii05").style.display ="none";
 }
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
+if ( h >= 17 & min >= 5 || h >=18 ){
+  document.querySelector(".xvii05").style.animation ="none";
 }
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
+ if (h < 17 & min < 10){
+  document.querySelector(".xvii10").style.display="none";
 }
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
+if (h >= 17 & min >= 10 || h >= 18){
+  document.querySelector(".xvii10").style.animation="none";
 }
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
+ if (h < 17 & min < 15){
+  document.querySelector(".xvii15").style.display="none";
 }
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
+if (h >= 17 & min >= 15 || h >= 18){
+  document.querySelector(".xvii15").style.animation="none";
 }
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
+if (h < 17 & min < 20){
+  document.querySelector(".xvii20").style.display="none";
 }
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
+if (h >= 17 & min >= 20 || h >= 18){
+  document.querySelector(".xvii20").style.animation="none";
 }
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
+if (h < 17 & min < 25 ){
+  document.querySelector(".xvii25").style.display="none";
 }
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
+if (h >= 17 & min >= 25 || h >= 18){
+  document.querySelector(".xvii25").style.animation="none";
 }
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
+if (h < 17 & min <30){
+  document.querySelector(".xvii30").style.display="none";
 }
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
+if (h >= 17 & min >= 30 || h>=18){
+  document.querySelector(".xvii30").style.animation="none";
 }
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
+if (h < 17 & min < 35){
+  document.querySelector(".xvii35").style.display="none";
 }
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
+if (h >= 17 & min >=35 || h>=18){
+  document.querySelector(".xvii35").style.animation="none";
 }
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
+if (h < 17 & min< 40){
+  document.querySelector(".xvii40").style.display="none";
 }
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
+if (h >= 17 & min >= 40 || h>=18){
+  document.querySelector(".xvii40").style.animation="none";
 }
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
+if (h < 17 & min < 45 ){
+  document.querySelector(".xvii45").style.display="none";
 }
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
+if (h >= 17 & min >=45 || h>=18){
+  document.querySelector(".xvii45").style.animation="none";
 }
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
+if (h < 17 & min <50 ){
+  document.querySelector(".xvii50").style.display="none";
 }
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
+if (h >= 17 & min >= 50 || h >= 18){
+  document.querySelector(".xvii50").style.animation="none";
 }
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
+if (h < 17 & min < 55){
+  document.querySelector(".xvii55").style.display="none";
 }
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
+if (h >= 17 & min >= 55 || h>=18){
+  document.querySelector(".xvii55").style.animation="none";
 }
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
+if (h < 17 & min <= 59 ){
+  document.querySelector(".xvii00").style.display="none";
 }
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
-}
-
-
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
-}
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
-}
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
-}
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
-}
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
-}
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
-}
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
-}
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
-}
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
-}
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
-}
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
-}
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
-}
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
-}
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
-}
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
-}
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
-}
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
-}
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
-}
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
-}
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
-}
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
-}
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
-}
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
-}
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
+if (h >= 18){
+  document.querySelector(".xvii00").style.animation="none";
 }
 
 
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
+if ( h < 18 & min < 5){
+  document.querySelector(".xviii05").style.display ="none";
 }
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
+if ( h >= 18 & min >= 5 || h >=19 ){
+  document.querySelector(".xviii05").style.animation ="none";
 }
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
+ if (h < 18 & min < 10){
+  document.querySelector(".xviii10").style.display="none";
 }
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
+if (h >= 18 & min >= 10 || h >= 19){
+  document.querySelector(".xviii10").style.animation="none";
 }
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
+ if (h < 18 & min < 15){
+  document.querySelector(".xviii15").style.display="none";
 }
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
+if (h >= 18 & min >= 15 || h >= 19){
+  document.querySelector(".xviii15").style.animation="none";
 }
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
+if (h < 18 & min < 20){
+  document.querySelector(".xviii20").style.display="none";
 }
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
+if (h >= 18 & min >= 20 || h >= 19){
+  document.querySelector(".xviii20").style.animation="none";
 }
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
+if (h < 18 & min < 25 ){
+  document.querySelector(".xviii25").style.display="none";
 }
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
+if (h >= 18 & min >= 25 || h >= 19){
+  document.querySelector(".xviii25").style.animation="none";
 }
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
+if (h < 18 & min <30){
+  document.querySelector(".xviii30").style.display="none";
 }
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
+if (h >= 18 & min >= 30 || h>=19){
+  document.querySelector(".xviii30").style.animation="none";
 }
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
+if (h < 18 & min < 35){
+  document.querySelector(".xviii35").style.display="none";
 }
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
+if (h >= 18 & min >=35 || h>=19){
+  document.querySelector(".xviii35").style.animation="none";
 }
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
+if (h < 18 & min< 40){
+  document.querySelector(".xviii40").style.display="none";
 }
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
+if (h >= 18 & min >= 40 || h>=19){
+  document.querySelector(".xviii40").style.animation="none";
 }
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
+if (h < 18 & min < 45 ){
+  document.querySelector(".xviii45").style.display="none";
 }
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
+if (h >= 18 & min >=45 || h>=19){
+  document.querySelector(".xviii45").style.animation="none";
 }
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
+if (h < 18 & min <50 ){
+  document.querySelector(".xviii50").style.display="none";
 }
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
+if (h >= 18 & min >= 50 || h >= 19){
+  document.querySelector(".xviii50").style.animation="none";
 }
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
+if (h < 18 & min < 55){
+  document.querySelector(".xviii55").style.display="none";
 }
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
+if (h >= 18 & min >= 55 || h>=19){
+  document.querySelector(".xviii55").style.animation="none";
 }
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
+if (h < 18 & min <= 59 ){
+  document.querySelector(".xviii00").style.display="none";
 }
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
-}
-
-
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
-}
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
-}
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
-}
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
-}
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
-}
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
-}
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
-}
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
-}
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
-}
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
-}
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
-}
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
-}
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
-}
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
-}
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
-}
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
-}
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
-}
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
-}
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
-}
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
-}
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
-}
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
-}
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
-}
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
+if (h >= 19){
+  document.querySelector(".xviii00").style.animation="none";
 }
 
 
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
+if ( h < 19 & min < 5){
+  document.querySelector(".xix05").style.display ="none";
 }
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
+if ( h >= 19 & min >= 5 || h >=20 ){
+  document.querySelector(".xix05").style.animation ="none";
 }
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
+ if (h < 19 & min < 10){
+  document.querySelector(".xix10").style.display="none";
 }
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
+if (h >= 19 & min >= 10 || h >= 20){
+  document.querySelector(".xix10").style.animation="none";
 }
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
+ if (h < 19 & min < 15){
+  document.querySelector(".xix15").style.display="none";
 }
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
+if (h >= 19 & min >= 15 || h >= 20){
+  document.querySelector(".xix15").style.animation="none";
 }
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
+if (h < 19 & min < 20){
+  document.querySelector(".xix20").style.display="none";
 }
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
+if (h >= 19 & min >= 20 || h >= 20){
+  document.querySelector(".xix20").style.animation="none";
 }
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
+if (h < 19 & min < 25 ){
+  document.querySelector(".xix25").style.display="none";
 }
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
+if (h >= 19 & min >= 25 || h >= 20){
+  document.querySelector(".xix25").style.animation="none";
 }
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
+if (h < 19 & min <30){
+  document.querySelector(".xix30").style.display="none";
 }
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
+if (h >= 19 & min >= 30 || h>=20){
+  document.querySelector(".xix30").style.animation="none";
 }
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
+if (h < 19 & min < 35){
+  document.querySelector(".xix35").style.display="none";
 }
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
+if (h >= 19 & min >=35 || h>=20){
+  document.querySelector(".xix35").style.animation="none";
 }
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
+if (h < 19 & min< 40){
+  document.querySelector(".xix40").style.display="none";
 }
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
+if (h >= 19 & min >= 40 || h>=20){
+  document.querySelector(".xix40").style.animation="none";
 }
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
+if (h < 19 & min < 45 ){
+  document.querySelector(".xix45").style.display="none";
 }
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
+if (h >= 19 & min >=45 || h>=20){
+  document.querySelector(".xix45").style.animation="none";
 }
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
+if (h < 19 & min <50 ){
+  document.querySelector(".xix50").style.display="none";
 }
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
+if (h >= 19 & min >= 50 || h >= 20){
+  document.querySelector(".xix50").style.animation="none";
 }
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
+if (h < 19 & min < 55){
+  document.querySelector(".xix55").style.display="none";
 }
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
+if (h >= 19 & min >= 55 || h>=20){
+  document.querySelector(".xix55").style.animation="none";
 }
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
+if (h < 19 & min <= 59 ){
+  document.querySelector(".xix00").style.display="none";
 }
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
-}
-
-
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
-}
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
-}
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
-}
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
-}
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
-}
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
-}
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
-}
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
-}
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
-}
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
-}
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
-}
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
-}
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
-}
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
-}
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
-}
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
-}
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
-}
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
-}
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
-}
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
-}
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
-}
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
-}
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
-}
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
+if (h >= 20){
+  document.querySelector(".xix00").style.animation="none";
 }
 
 
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
+if ( h < 20 & min < 5){
+  document.querySelector(".xx05").style.display ="none";
 }
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
+if ( h >= 20 & min >= 5 || h >=21 ){
+  document.querySelector(".xx05").style.animation ="none";
 }
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
+ if (h < 20 & min < 10){
+  document.querySelector(".xx10").style.display="none";
 }
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
+if (h >= 20 & min >= 10 || h >= 21){
+  document.querySelector(".xx10").style.animation="none";
 }
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
+ if (h < 20 & min < 15){
+  document.querySelector(".xx15").style.display="none";
 }
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
+if (h >= 20 & min >= 15 || h >= 21){
+  document.querySelector(".xx15").style.animation="none";
 }
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
+if (h < 20 & min < 20){
+  document.querySelector(".xx20").style.display="none";
 }
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
+if (h >= 20 & min >= 20 || h >= 21){
+  document.querySelector(".xx20").style.animation="none";
 }
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
+if (h < 20 & min < 25 ){
+  document.querySelector(".xx25").style.display="none";
 }
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
+if (h >= 20 & min >= 25 || h >= 21){
+  document.querySelector(".xx25").style.animation="none";
 }
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
+if (h < 20 & min <30){
+  document.querySelector(".xx30").style.display="none";
 }
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
+if (h >= 20 & min >= 30 || h>=21){
+  document.querySelector(".xx30").style.animation="none";
 }
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
+if (h < 20 & min < 35){
+  document.querySelector(".xx35").style.display="none";
 }
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
+if (h >= 20 & min >=35 || h>=21){
+  document.querySelector(".xx35").style.animation="none";
 }
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
+if (h < 20 & min< 40){
+  document.querySelector(".xx40").style.display="none";
 }
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
+if (h >= 20 & min >= 40 || h>=21){
+  document.querySelector(".xx40").style.animation="none";
 }
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
+if (h < 20 & min < 45 ){
+  document.querySelector(".xx45").style.display="none";
 }
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
+if (h >= 20 & min >=45 || h>=21){
+  document.querySelector(".xx45").style.animation="none";
 }
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
+if (h < 20 & min <50 ){
+  document.querySelector(".xx50").style.display="none";
 }
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
+if (h >= 20 & min >= 50 || h >= 21){
+  document.querySelector(".xx50").style.animation="none";
 }
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
+if (h < 20 & min < 55){
+  document.querySelector(".xx55").style.display="none";
 }
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
+if (h >= 20 & min >= 55 || h>=21){
+  document.querySelector(".xx55").style.animation="none";
 }
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
+if (h < 20 & min <= 59 ){
+  document.querySelector(".xx00").style.display="none";
 }
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
-}
-
-
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
-}
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
-}
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
-}
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
-}
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
-}
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
-}
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
-}
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
-}
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
-}
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
-}
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
-}
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
-}
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
-}
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
-}
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
-}
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
-}
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
-}
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
-}
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
-}
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
-}
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
-}
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
-}
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
-}
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
+if (h >= 21){
+  document.querySelector(".xx00").style.animation="none";
 }
 
 
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
+if ( h < 21 & min < 5){
+  document.querySelector(".xxi05").style.display ="none";
 }
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
+if ( h >= 21 & min >= 5 || h >=22 ){
+  document.querySelector(".xxi05").style.animation ="none";
 }
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
+ if (h < 21 & min < 10){
+  document.querySelector(".xxi10").style.display="none";
 }
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
+if (h >= 21 & min >= 10 || h >= 22){
+  document.querySelector(".xxi10").style.animation="none";
 }
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
+ if (h < 21 & min < 15){
+  document.querySelector(".xxi15").style.display="none";
 }
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
+if (h >= 21 & min >= 15 || h >= 22){
+  document.querySelector(".xxi15").style.animation="none";
 }
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
+if (h < 21 & min < 20){
+  document.querySelector(".xxi20").style.display="none";
 }
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
+if (h >= 21 & min >= 20 || h >= 22){
+  document.querySelector(".xxi20").style.animation="none";
 }
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
+if (h < 21 & min < 25 ){
+  document.querySelector(".xxi25").style.display="none";
 }
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
+if (h >= 21 & min >= 25 || h >= 22){
+  document.querySelector(".xxi25").style.animation="none";
 }
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
+if (h < 21 & min <30){
+  document.querySelector(".xxi30").style.display="none";
 }
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
+if (h >= 21 & min >= 30 || h>=22){
+  document.querySelector(".xxi30").style.animation="none";
 }
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
+if (h < 21 & min < 35){
+  document.querySelector(".xxi35").style.display="none";
 }
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
+if (h >= 21 & min >=35 || h>=22){
+  document.querySelector(".xxi35").style.animation="none";
 }
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
+if (h < 21 & min< 40){
+  document.querySelector(".xxi40").style.display="none";
 }
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
+if (h >= 21 & min >= 40 || h>=22){
+  document.querySelector(".xxi40").style.animation="none";
 }
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
+if (h < 21 & min < 45 ){
+  document.querySelector(".xxi45").style.display="none";
 }
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
+if (h >= 21 & min >=45 || h>=22){
+  document.querySelector(".xxi45").style.animation="none";
 }
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
+if (h < 21 & min <50 ){
+  document.querySelector(".xxi50").style.display="none";
 }
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
+if (h >= 21 & min >= 50 || h >= 22){
+  document.querySelector(".xxi50").style.animation="none";
 }
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
+if (h < 21 & min < 55){
+  document.querySelector(".xxi55").style.display="none";
 }
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
+if (h >= 21 & min >= 55 || h>=22){
+  document.querySelector(".xxi55").style.animation="none";
 }
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
+if (h < 21 & min <= 59 ){
+  document.querySelector(".xxi00").style.display="none";
 }
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
-}
-
-
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
-}
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
-}
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
-}
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
-}
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
-}
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
-}
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
-}
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
-}
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
-}
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
-}
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
-}
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
-}
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
-}
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
-}
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
-}
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
-}
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
-}
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
-}
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
-}
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
-}
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
-}
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
-}
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
-}
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
+if (h >= 22){
+  document.querySelector(".xxi00").style.animation="none";
 }
 
 
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
+if ( h < 22 & min < 5){
+  document.querySelector(".xxii05").style.display ="none";
 }
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
+if ( h >= 22 & min >= 5 || h >=23 ){
+  document.querySelector(".xxii05").style.animation ="none";
 }
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
+ if (h < 22 & min < 10){
+  document.querySelector(".xxii10").style.display="none";
 }
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
+if (h >= 22 & min >= 10 || h >= 23){
+  document.querySelector(".xxii10").style.animation="none";
 }
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
+ if (h < 22 & min < 15){
+  document.querySelector(".xxii15").style.display="none";
 }
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
+if (h >= 22 & min >= 15 || h >= 23){
+  document.querySelector(".xxii15").style.animation="none";
 }
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
+if (h < 22 & min < 20){
+  document.querySelector(".xxii20").style.display="none";
 }
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
+if (h >= 22 & min >= 20 || h >= 23){
+  document.querySelector(".xxii20").style.animation="none";
 }
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
+if (h < 22 & min < 25 ){
+  document.querySelector(".xxii25").style.display="none";
 }
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
+if (h >= 22 & min >= 25 || h >= 23){
+  document.querySelector(".xxii25").style.animation="none";
 }
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
+if (h < 22 & min <30){
+  document.querySelector(".xxii30").style.display="none";
 }
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
+if (h >= 22 & min >= 30 || h>=23){
+  document.querySelector(".xxii30").style.animation="none";
 }
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
+if (h < 22 & min < 35){
+  document.querySelector(".xxii35").style.display="none";
 }
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
+if (h >= 22 & min >=35 || h>=23){
+  document.querySelector(".xxii35").style.animation="none";
 }
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
+if (h < 22 & min< 40){
+  document.querySelector(".xxii40").style.display="none";
 }
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
+if (h >= 22 & min >= 40 || h>=23){
+  document.querySelector(".xxii40").style.animation="none";
 }
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
+if (h < 22 & min < 45 ){
+  document.querySelector(".xxii45").style.display="none";
 }
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
+if (h >= 22 & min >=45 || h>=23){
+  document.querySelector(".xxii45").style.animation="none";
 }
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
+if (h < 22 & min <50 ){
+  document.querySelector(".xxii50").style.display="none";
 }
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
+if (h >= 22 & min >= 50 || h >= 23){
+  document.querySelector(".xxii50").style.animation="none";
 }
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
+if (h < 22 & min < 55){
+  document.querySelector(".xxii55").style.display="none";
 }
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
+if (h >= 22 & min >= 55 || h>=23){
+  document.querySelector(".xxii55").style.animation="none";
 }
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
+if (h < 22 & min <= 59 ){
+  document.querySelector(".xxii00").style.display="none";
 }
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
+if (h >= 23){
+  document.querySelector(".xxii00").style.animation="none";
 }
 
 
-if ( h < 11 & min < 5){
-  document.querySelector(".xi05").style.display ="none";
+if ( h < 23 & min < 5){
+  document.querySelector(".xxiii05").style.display ="none";
 }
-if ( h >= 11 & min >= 5 || h >=12 ){
-  document.querySelector(".xi05").style.animation ="none";
+if ( h >= 23 & min >= 5){
+  document.querySelector(".xxiii05").style.animation ="none";
 }
- if (h < 11 & min < 10){
-  document.querySelector(".xi10").style.display="none";
+ if (h < 23 & min < 10){
+  document.querySelector(".xxiii10").style.display="none";
 }
-if (h >= 11 & min >= 10 || h >= 12){
-  document.querySelector(".xi10").style.animation="none";
+if (h >= 23 & min >= 10 ){
+  document.querySelector(".xxiii10").style.animation="none";
 }
- if (h*60 + min < 675 || h < 11 & min < 15){
-  document.querySelector(".xi15").style.display="none";
+ if (h < 23 & min < 15){
+  document.querySelector(".xxiii15").style.display="none";
 }
-if (h >= 11 & min >= 15 || h >= 12){
-  document.querySelector(".xi15").style.animation="none";
+if (h >= 23 & min >= 15 ){
+  document.querySelector(".xxiii15").style.animation="none";
 }
-if (h < 11 & min < 20){
-  document.querySelector(".xi20").style.display="none";
+if (h < 23 & min < 20){
+  document.querySelector(".xxiii20").style.display="none";
 }
-if (h >= 11 & min >= 20 || h >= 12){
-  document.querySelector(".xi20").style.animation="none";
+if (h >= 23 & min >= 20 ){
+  document.querySelector(".xxiii20").style.animation="none";
 }
-if (h < 11 & min < 25 ){
-  document.querySelector(".xi25").style.display="none";
+if (h < 23 & min < 25 ){
+  document.querySelector(".xxiii25").style.display="none";
 }
-if (h >= 11 & min >= 25 || h >= 12){
-  document.querySelector(".xi25").style.animation="none";
+if (h >= 23 & min >= 25 ){
+  document.querySelector(".xxiii25").style.animation="none";
 }
-if (h < 11 & min <30){
-  document.querySelector(".xi30").style.display="none";
+if (h < 23 & min <30){
+  document.querySelector(".xxiii30").style.display="none";
 }
-if (h >= 11 & min >= 30 || h>=12){
-  document.querySelector(".xi30").style.animation="none";
+if (h >= 23 & min >= 30 ){
+  document.querySelector(".xxiii30").style.animation="none";
 }
-if (h < 11 & min < 35){
-  document.querySelector(".xi35").style.display="none";
+if (h < 23 & min < 35){
+  document.querySelector(".xxiii35").style.display="none";
 }
-if (h >= 11 & min >=35 || h>=12){
-  document.querySelector(".xi35").style.animation="none";
+if (h >= 23 & min >=35 ){
+  document.querySelector(".xxiii35").style.animation="none";
 }
-if (h < 11 & min< 40){
-  document.querySelector(".xi40").style.display="none";
+if (h < 23 & min< 40){
+  document.querySelector(".xxiii40").style.display="none";
 }
-if (h >= 11 & min >= 40 || h>=12){
-  document.querySelector(".xi40").style.animation="none";
+if (h >= 23 & min >= 40 ){
+  document.querySelector(".xxiii40").style.animation="none";
 }
-if (h < 11 & min < 45 ){
-  document.querySelector(".xi45").style.display="none";
+if (h < 23 & min < 45 ){
+  document.querySelector(".xxiii45").style.display="none";
 }
-if (h >= 11 & min >=45 || h>=12){
-  document.querySelector(".xi45").style.animation="none";
+if (h >= 23 & min >=45 ){
+  document.querySelector(".xxiii45").style.animation="none";
 }
-if (h < 11 & min <50 ){
-  document.querySelector(".xi50").style.display="none";
+if (h < 23 & min <50 ){
+  document.querySelector(".xxiii50").style.display="none";
 }
-if (h >= 11 & min >= 50 || h >= 12){
-  document.querySelector(".xi50").style.animation="none";
+if (h >= 23 & min >= 50 ){
+  document.querySelector(".xxiii50").style.animation="none";
 }
-if (h < 11 & min < 55){
-  document.querySelector(".xi55").style.display="none";
+if (h < 23 & min < 55){
+  document.querySelector(".xxiii55").style.display="none";
 }
-if (h >= 11 & min >= 55 || h>=12){
-  document.querySelector(".xi55").style.animation="none";
+if (h >= 23 & min >= 55 ){
+  document.querySelector(".xxiii55").style.animation="none";
 }
-if (h < 11 & min <= 59 ){
-  document.querySelector(".xi00").style.display="none";
+if (h < 23 & min <= 59 ){
+  document.querySelector(".xxiii00").style.display="none";
 }
-if (h >= 12){
-  document.querySelector(".xi00").style.animation="none";
+if (h >= 0){
+  document.querySelector(".xxiii00").style.animation="none";
 }
 
 }, 1000);
