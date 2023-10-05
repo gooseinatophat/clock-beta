@@ -557,19 +557,19 @@ if (h >= 11){
   document.querySelector(".x00").style.animation="none";
 }
 
-if ( h < 11 && min < 5){
+if ( h < 11 & min < 5){
   document.querySelector(".xi05").style.display ="none";
 }
-if ( h >= 11 && min >= 5 || h >=12 ){
+if ( h >= 11 & min >= 5 || h >=12 ){
   document.querySelector(".xi05").style.animation ="none";
 }
- if (h < 11 && min < 10){
+ if (h < 11 & min < 10){
   document.querySelector(".xi10").style.display="none";
 }
-if (h >= 11 && min >= 10 || h >= 12){
+if (h >= 11 & min >= 10 || h >= 12){
   document.querySelector(".xi10").style.animation="none";
 }
- if (h*60 + min < 675 || h < 11 & min < 15){
+ if (h < 11 & min < 15){
   document.querySelector(".xi15").style.display="none";
 }
 if (h >= 11 & min >= 15 || h >= 12){
@@ -1518,7 +1518,7 @@ if (h >= 0){
   document.querySelector(".xxiii00").style.animation="none";
 }
 
-}, 1000);
+}, 100);
 
 /* function setCookie(cname,cvalue,exdays) {
   const d = new Date();
