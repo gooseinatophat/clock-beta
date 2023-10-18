@@ -373,7 +373,8 @@ body {
 .xxiii45,
 .xxiii50,
 .xxiii55,
-.xxiii00{
+.xxiii00,
+.slote{
   width: 0.8vw;
   display: flex;
   border: #838383 solid 0.05vw;
