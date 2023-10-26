@@ -155,9 +155,12 @@ const slotes = new Array(288).fill({
 });
 
 for (let i = 0; i < 288; i++){
-  slotes[i].element = document.getElementById("slote-${i}");
-  slotes[i].startHour = ((((new Date ()).getHours())+6)/12) >= i;
-  slotes[i].startMinute = (((new Date ()).getMinutes())*5) >= i;
+  slotes[i].element = document.getElementById(`slote-${i}`);
+
+  const startHour = Math.floor(i / 12);
+  const startMinute = (i % 12) * 5;
+  slotes[i].startHour = startHour;
+  slotes[i].startMinute = startMinute;
 
 }
 
@@ -173,12 +176,12 @@ function updateSlotes(){
         slote.element.style.display = "none";
       } else {
         slote.element.style.display = "block";
-        slote.element.style.animation = " none";
+        slote.element.style.animation = "none";
       }
   }
 }
-setInterval(updateSlotes, 1000); 
 updateSlotes();
+setInterval(updateSlotes, 1000); 
 
 
 let s = 0;

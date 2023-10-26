@@ -572,17 +572,19 @@ body {
   border-radius: 45%;
   border: #000000 0.1vw solid;
 }
-
-.moonsun {
-  border-radius: 50%;
-  width: 4vw;
-  height: 4vw;
-  position: relative;
-  top: 0.5vw;
-  left: 1vw;
-  cursor: pointer;
-  background-color: #ffe865;
-  transition: left 0.3s ease;
+.sky:hover{
+    
+}
+.moonsun{
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    position: relative;
+    top: 0.5vw;
+    left: 1vw;
+    cursor: pointer;
+    background-color: #ffe865;
+    transition: left 0.3s ease;
 }
 .moonsun.open {
   left: 5vw;
