@@ -164,7 +164,7 @@ for (let i = 0; i < 288; i++){
 
 }
 
-function updateSlotes(){
+setInterval(function updateSlotes() {
   const now = new Date ();
   const currentHour = now.getHours();
   const currentMinute = now.getMinutes();
@@ -172,16 +172,21 @@ function updateSlotes(){
   for(let i = 0; i < 288; i++){
     const slote = slotes[i];
 
-    if(currentHour < slote.startHour || currentHour === slote.startHour && currentMinute < slote.startMinute) {
-        slote.element.style.display = "none";
-      } else {
+    if(currentHour === slote.startHour && currentMinute < slote.startMinute) {
         slote.element.style.display = "block";
+        slote.element.style.animation = "tick 1s infinite";
+      }; 
+    if(currentHour < slote.startHour){
+        slote.element.style.display = "none";
+        slote.element.style.width = "0.8vw";
+        slote.element.style.backgroundColor = "#5c5c5c";
+        slote.element.style.border = "#838383 solid 0.05vw";
         slote.element.style.animation = "none";
-      }
+      };
   }
-}
-updateSlotes();
-setInterval(updateSlotes, 1000); 
+}, 1000);
+
+ 
 
 
 let s = 0;
