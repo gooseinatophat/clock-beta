@@ -150,6 +150,7 @@ let slotes = new Array(288).fill({
     element: null,
     startHour: null,
     startMinute: null,
+    endMinute:null,
   });
 
 setInterval(function updateSlotes() {
@@ -162,40 +163,34 @@ setInterval(function updateSlotes() {
 
     slotes[i].element = document.getElementById(`slote-${i}`);
     let startHour = Math.floor(i / 12);
-    let startMinute = (i % 12) * 5; 
+    let startMinute = (i % 12) * 5;
+    let endMinute = startMinute + 5; 
     
     let now = new Date ();
     let currentHour = now.getHours();
     let currentMinute = now.getMinutes();
-    console.log( startHour, currentHour);
+    console.log( startMinute, currentMinute);
         
-    if(startHour < currentHour || startHour <= currentHour && startMinute < currentMinute){
+    if(startHour < currentHour || currentMinute >= endMinute){
         slotes[i].element.style.display = "block";
-        slotes[i].element.style.width = "0.8vw";
         slotes[i].element.style.backgroundColor = "#5c5c5c";
         slotes[i].element.style.border = "#838383 solid 0.05vw";
-        
+        slotes[i].element.style.animation = "tick 0s";
       };
-    if(currentHour === startHour && currentMinute >= startMinute){
+    if(currentHour === startHour && currentMinute < endMinute && currentMinute >= startMinute){
         slotes[i].element.style.display = "block";
-        slotes[i].element.style.width = "0.8vw";
         slotes[i].element.style.animation = "tick 1s infinite";
       }; 
     if(currentHour < startHour){
         slotes[i].element.style.display = "none";
         slotes[i].element.style.animation = "none";
       };
-    
+    if(currentHour === startHour && currentMinute < startMinute){
+        slotes[i].element.style.display = "none";
+        slotes[i].element.style.animation = "none";
+      };
   }
 }, 1000);
-
-document.getElementById("slote-0").style.backgroundColor="black";
-document.getElementById("slote-0").style.width="2vw";
-document.getElementById("slote-0").style.height="2vw";
-document.getElementById("slote-0").style.display="none";
-
-
-
  
 
 
