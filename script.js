@@ -167,21 +167,25 @@ setInterval(function updateSlotes() {
     let now = new Date ();
     let currentHour = now.getHours();
     let currentMinute = now.getMinutes();
-    console.log(startHour, currentHour);
-    if(currentHour === startHour && currentMinute === startMinute){
+    console.log( startHour, currentHour);
+        
+    if(startHour < currentHour || startHour <= currentHour && startMinute < currentMinute){
         slotes[i].element.style.display = "block";
         slotes[i].element.style.width = "0.8vw";
-
+        slotes[i].element.style.backgroundColor = "#5c5c5c";
+        slotes[i].element.style.border = "#838383 solid 0.05vw";
+        
+      };
+    if(currentHour === startHour && currentMinute >= startMinute){
+        slotes[i].element.style.display = "block";
+        slotes[i].element.style.width = "0.8vw";
         slotes[i].element.style.animation = "tick 1s infinite";
       }; 
-    if(currentHour < slotes[i].startHour){
+    if(currentHour < startHour){
         slotes[i].element.style.display = "none";
         slotes[i].element.style.animation = "none";
       };
-    if(currentHour = slotes[i].startHour && currentMinute > slotes[i].startMinute){
-        slotes[i].element.style.display = "block";
-        slotes[i].element.style.animation = "none";
-      };
+    
   }
 }, 1000);
 
