@@ -154,13 +154,8 @@ let slotes = new Array(288).fill({
   });
 
 setInterval(function updateSlotes() {
-  
-  
-
   for(let i = 0; i < 288; i++){
-   
-    
-
+ 
     slotes[i].element = document.getElementById(`slote-${i}`);
     let startHour = Math.floor(i / 12);
     let startMinute = (i % 12) * 5;
@@ -169,7 +164,6 @@ setInterval(function updateSlotes() {
     let now = new Date ();
     let currentHour = now.getHours();
     let currentMinute = now.getMinutes();
-    console.log( startMinute, currentMinute);
         
     if(startHour < currentHour || currentMinute >= endMinute){
         slotes[i].element.style.display = "block";
@@ -222,46 +216,13 @@ setInterval(function time() {
     u1h * (h - 18) + min * u1min + "vw";
   document.querySelector(".leftt").style.height =
     u1h * h + min * u1min + 3 + "vw";
-
-  if (h >= 6) {
-    document.querySelector(".leftt").style.height = 100 + "%";
-  }
-  if (h >= 12) {
-    document.querySelector(".topt").style.width = 100 + "%";
-  }
-  if (h >= 18) {
-    document.querySelector(".rightt").style.height = 100 + "%";
-  }
-  if (h < 18) {
-    document.querySelector(".bottomt").style.width = 0 + "%";
-  } */
-
-
-
-
-/*  if (h <= 6 && min < 1 && h != 7 && h < 7 ){
-  document.querySelector(".vi05").style.display ="none";
-}
-if (h >= 6 && min >= 5 || h >= 7) {
-  document.querySelector(".vi05").style.animation ="none";
-}
- if (h < 6 && min < 6 && h != 7 && h < 7 ){
-  document.querySelector(".vi10").style.display="none";
-}
-if (h >= 6 && min >= 10 || h >= 7){
-  document.querySelector(".vi10").style.animation="none";
-}
- if (h < 6 && min < 11 && h != 7 && h < 7 ){
-  document.querySelector(".vi15").style.display="none";
-}
-if (h >= 6 && min >= 15 || h >= 7){
-  document.querySelector(".vi15").style.animation="none";
-}
-if (h < 6 && min < 16 && h != 7 && h < 7 ){
-  document.querySelector(".vi20").style.display="none";
-}
 */
+
 }, 100);
+
+
+
+
 
 /* function setCookie(cname,cvalue,exdays) {
   const d = new Date();
