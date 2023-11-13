@@ -159,13 +159,13 @@ body {
   cursor: default;
 }
 
-.slote{
+/* .slote{
   display: block;
   width: 0.8vw;
   border: #838383 solid 0.05vw;
   background-color: #5c5c5c;
   animation: tick 1s infinite;
-}
+} */
 @keyframes tick {
   from {
     background-color: #e2e2e2;

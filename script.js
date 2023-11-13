@@ -146,46 +146,51 @@ function fullView() {
   tick.forEach((ticks) => {ticks.classList.toggle("open");});  
 }
 
-
-
-const slotes = new Array(288).fill({
-  element: null,
-  startHour: null,
-  startMinute: null,
-});
-
-for (let i = 0; i < 288; i++){
-  slotes[i].element = document.getElementById(`slote-${i}`);
-
-  const startHour = Math.floor(i / 12);
-  const startMinute = (i % 12) * 5;
-  slotes[i].startHour = startHour;
-  slotes[i].startMinute = startMinute;
-
-}
+let slotes = new Array(288).fill({
+    element: null,
+    startHour: null,
+    startMinute: null,
+  });
 
 setInterval(function updateSlotes() {
-  const now = new Date ();
-  const currentHour = now.getHours();
-  const currentMinute = now.getMinutes();
+  
+  
 
   for(let i = 0; i < 288; i++){
-    const slote = slotes[i];
+   
+    
 
-    if(currentHour === slote.startHour && currentMinute < slote.startMinute) {
-        slote.element.style.display = "block";
-        slote.element.style.animation = "tick 1s infinite";
+    slotes[i].element = document.getElementById(`slote-${i}`);
+    let startHour = Math.floor(i / 12);
+    let startMinute = (i % 12) * 5; 
+    
+    let now = new Date ();
+    let currentHour = now.getHours();
+    let currentMinute = now.getMinutes();
+    console.log(startHour, currentHour);
+    if(currentHour === startHour && currentMinute === startMinute){
+        slotes[i].element.style.display = "block";
+        slotes[i].element.style.width = "0.8vw";
+
+        slotes[i].element.style.animation = "tick 1s infinite";
       }; 
-    if(currentHour < slote.startHour){
-        slote.element.style.display = "none";
-        slote.element.style.animation = "none";
+    if(currentHour < slotes[i].startHour){
+        slotes[i].element.style.display = "none";
+        slotes[i].element.style.animation = "none";
       };
-    if(currentHour > slote.startHour && currentMinute > slote.startMinute){
-        slote.element.style.display = "block";
-        slote.element.style.animation = "none";
+    if(currentHour = slotes[i].startHour && currentMinute > slotes[i].startMinute){
+        slotes[i].element.style.display = "block";
+        slotes[i].element.style.animation = "none";
       };
   }
 }, 1000);
+
+document.getElementById("slote-0").style.backgroundColor="black";
+document.getElementById("slote-0").style.width="2vw";
+document.getElementById("slote-0").style.height="2vw";
+document.getElementById("slote-0").style.display="none";
+
+
 
  
 
