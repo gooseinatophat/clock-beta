@@ -9,6 +9,7 @@ function displayer() {
   const tsk = document.querySelectorAll(".task");
   const vnt = document.querySelectorAll(".event");
   const tick = document.querySelectorAll(".tick");
+  const slo = document.querySelectorAll(".slote");
 
   wrk.forEach((wrks) => {wrks.classList.toggle("open"); });
   opn.forEach((opns) => {opns.classList.toggle("open");});
@@ -20,6 +21,7 @@ function displayer() {
   tsk.forEach((tsks) => {tsks.classList.toggle("open");});
   vnt.forEach((vnts) => {vnts.classList.toggle("open");});
   tick.forEach((ticks) => {ticks.classList.toggle("open");});
+  slo.forEach((slos) => {slos.classList.toggle("open");});
 
   document.querySelector(".left").classList.toggle("open");
   document.querySelector(".right").classList.toggle("open");
@@ -75,34 +77,6 @@ evnt.addEventListener("click", function () {
 });
 
 
-/* function copyColorN(){
-  const night = document.querySelector(".selen");
-
-  night.classList.toggle("on");
-
-  if (night.classList.contains("on")) {
-    document.body.style.cursor = "url('cursor-n.jpg')";
-    night.style.cursor = "url('cursor-n.jpg')";
-  } else {
-    document.body.style.cursor = "default";
-    night.style.cursor = "url('cursor-n.jpg')";
-  }
-}
-
-function copyColorNp(){
-  const nap = document.querySelector(".selenp");
-  
-  nap.classList.toggle("on");
-
-  if (nap.classList.contains("on")) {
-    document.body.style.cursor = "url('cursor-n.jpg')";
-    nap.style.cursor = "url('cursor-n.jpg')";
-  } else {
-    document.body.style.cursor = "default";
-    nap.style.cursor = "url('cursor-n.jpg')";
-  }
-} */
-
 function nightView() {
   const bSlide = document.querySelector(".moonsun");
 
@@ -142,8 +116,8 @@ function timeView() {
 }
 
 function fullView() {
-  const tick = document.querySelectorAll(".tick");
-  tick.forEach((ticks) => {ticks.classList.toggle("open");});  
+  let slo = document.querySelectorAll(".slote");
+  slo.forEach((slos) => {slos.classList.toggle("open");});  
 }
 
 let slotes = new Array(288).fill({
@@ -167,8 +141,6 @@ setInterval(function updateSlotes() {
         
     if(startHour < currentHour || currentMinute >= endMinute){
         slotes[i].element.style.display = "block";
-        slotes[i].element.style.backgroundColor = "#5c5c5c";
-        slotes[i].element.style.border = "#838383 solid 0.05vw";
         slotes[i].element.style.animation = "tick 0s";
       };
     if(currentHour === startHour && currentMinute < endMinute && currentMinute >= startMinute){

@@ -408,6 +408,10 @@ body {
 .empty.open,
 .night.open,
 .event.open,
-.task.open {
+.task.open,
+.slote.open {
   background-color: #00000000;
+}
+.slote.open{
+  border: #00000000;
 }
