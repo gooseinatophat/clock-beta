@@ -163,7 +163,7 @@ body {
   display: block;
   width: 0.8vw;
   border: #838383 solid 0.05vw;
-  background-color: #5c5c5c;
+  background-color: #5c5c5c79;
   animation: tick 0s infinite;
 }
 @keyframes tick {
@@ -171,7 +171,7 @@ body {
     background-color: #e2e2e2;
   }
   to {
-    background-color: #5c5c5c;
+    background-color: #5c5c5c94;
   }
 }
 .tick.open {
@@ -301,6 +301,7 @@ body {
   justify-content: space-evenly;
   align-self: center;
 }
+
 .selenp,
 .selefl,
 .selebrk,
@@ -373,7 +374,7 @@ body {
   background-color: #ffffff;
 }
 .night {
-  background-color: #6f7eff;
+  background-color: #8995ff;
 }
 .nap {
   background-color: #aad9ff;
@@ -382,22 +383,22 @@ body {
   background-color: #ceb0ff;
 }
 .fuel {
-  background-color: #97ffa0;
+  background-color: #bcffc2;
 }
 .commute {
-  background-color: #ff7b00;
+  background-color: #ffbc7e;
 }
 .work {
-  background-color: #ee7676;
+  background-color: #ff9696;
 }
 .empty {
   background-color: #cecece;
 }
 .event {
-  background-color: #ff83f5;
+  background-color: #ffbffa;
 }
 .task {
-  background-color: #ffee00;
+  background-color: #fff89b;
 }
 
 .commute.open,
