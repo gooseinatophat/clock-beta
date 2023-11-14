@@ -1,16 +1,18 @@
 body {
   scale: 100%;
+  margin: 0;
   background-color: #cecece;
-  border: yellow 2vw solid;
-
-}
+/*   border: yellow 2vw solid;
+ */}
 .frame-overlord {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: rgb(0, 255, 55) 2vw solid;
-  scale: 100%;
+/*   border: rgb(0, 255, 55) 2vw solid;
+ */  scale: 100%;
+  transition: top 1s ease-in-out;
+
 }
 
 .frame {
@@ -19,7 +21,9 @@ body {
   justify-content: center;
   padding: 0 0 0 0;
   margin: 0;
-  border: yellow 2vw solid;scale: 80%;
+  margin-top: -22vw;
+/*   border: yellow 2vw solid;
+ */  scale: 50%;
 }
 .mdl {
   display: flex;
@@ -359,7 +363,7 @@ body {
  
 }
 .menu-toggle{ 
-  top: -5vw;
+  top: -2.5vw;
   transition: top 0.5s ease;
   position: fixed;
   z-index: 1;
@@ -369,7 +373,7 @@ body {
   height: 5vw;
   cursor: pointer;}
 .menu-toggle.open{
-  top: 10vw;
+  top: 9.5vw;
   height: 1vw;
   border-radius: 0%;
   background-color: #b3b3b3;
