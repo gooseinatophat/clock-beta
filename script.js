@@ -165,8 +165,8 @@ function toggleMenu(){
   menuToggle.classList.toggle('open');
 
   if (menu.classList.contains('open'))
-  {document.querySelector(".frame-overlord").style.marginTop = '10vw';} 
-  else {document.querySelector(".frame-overlord").style.marginTop = '0vw';}
+  {document.querySelector(".frame-overlord").style.marginTop = '13vw';} 
+  else {document.querySelector(".frame-overlord").style.marginTop = '7vw';}
 }
 
 let s = 0;

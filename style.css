@@ -12,6 +12,7 @@ body {
 /*   border: rgb(0, 255, 55) 2vw solid;
  */  scale: 100%;
   transition: top 1s ease-in-out;
+  margin-top: 7vw;
 
 }
 
@@ -363,21 +364,24 @@ body {
  
 }
 .menu-toggle{ 
-  top: -2.5vw;
+  top: -3.5vw;
   transition: top 0.5s ease;
   position: fixed;
+  border: #00000000;
   z-index: 1;
-  background-color: #ca1d1d;
+  background-color: #e9e9e9;
   border-radius: 50%;
-  width: 5vw;
-  height: 5vw;
+  width: 7vw;
+  height: 7vw;
   cursor: pointer;}
 .menu-toggle.open{
   top: 9.5vw;
   height: 1vw;
   border-radius: 0%;
   background-color: #b3b3b3;
-  position: absolute;}
+  position: absolute;
+border: #000000 0.25vw solid;
+}
 .menu{
   display: flex;
   flex-direction: row;
