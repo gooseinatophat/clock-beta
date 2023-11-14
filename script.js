@@ -158,7 +158,16 @@ setInterval(function updateSlotes() {
   }
 }, 1000);
  
+function toggleMenu(){
+  const menuToggle = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('.menu');
+  menu.classList.toggle('open');
+  menuToggle.classList.toggle('open');
 
+  if (menu.classList.contains('open'))
+  {menuToggle.textContent = ''} 
+  else {menuToggle.textContent = '';}
+}
 
 let s = 0;
 let min = 0;

@@ -10,8 +10,9 @@
     <!-- <p> the beta version</p> -->
   </head>
   <body>
-    <div class="frame-overlord">
-      <div class="container-btns line-zero">
+    <div class="container-btns">
+      <button class="menu-toggle" onclick="toggleMenu()"></button>
+      <div class="menu">
         <div class="Index squedule" title="info" onclick="fullView()">i</div>
         <div class="sky" title="dark mode">
           <div class="moonsun" onclick="nightView()"></div>
@@ -20,6 +21,8 @@
           <div class="arrows">_/</div>
         </div>
       </div>
+    </div>
+    <div class="frame-overlord">
       <div class="container-options">
         <div class="options">
           <div class="night selen" title="select">sleep</div>

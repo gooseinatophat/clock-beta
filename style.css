@@ -1,12 +1,16 @@
 body {
-  scale: 50%;
+  scale: 100%;
   background-color: #cecece;
+  border: yellow 2vw solid;
+
 }
 .frame-overlord {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: rgb(0, 255, 55) 2vw solid;
+  scale: 100%;
 }
 
 .frame {
@@ -15,6 +19,7 @@ body {
   justify-content: center;
   padding: 0 0 0 0;
   margin: 0;
+  border: yellow 2vw solid;scale: 80%;
 }
 .mdl {
   display: flex;
@@ -153,14 +158,15 @@ body {
 .slot {
   cursor: copy;
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 .slot:active {
   cursor: default;
 }
 
 .slote{
-  display: block;
+  display: flex;
+  flex-direction: row;
   width: 0.8vw;
   border: #838383 solid 0.05vw;
   background-color: #5c5c5c79;
@@ -292,7 +298,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding: 0 0 5vw 0;
+  padding: 0 0 0vw 0;
   width: 100%;
 }
 .options {
@@ -348,8 +354,42 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0 0 5vw 0;
+  padding: 0 0 0vw 0;
   width: 100%;
+ 
+}
+.menu-toggle{ 
+  top: -5vw;
+  transition: top 0.5s ease;
+  position: fixed;
+  z-index: 1;
+  background-color: #ca1d1d;
+  border-radius: 50%;
+  width: 5vw;
+  height: 5vw;
+  cursor: pointer;}
+.menu-toggle.open{
+  top: 10vw;
+  height: 1vw;
+  border-radius: 0%;
+  background-color: #b3b3b3;
+  position: absolute;}
+.menu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: -15vw;
+  height: 10vw;
+  background-color: #000000;
+  transition: top 0.5s ease;
+}
+.menu.open{
+  top: 0;
+  position: fixed;
 }
 .sky {
   background-color: #415dd6;
