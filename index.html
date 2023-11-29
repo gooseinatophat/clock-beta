@@ -13,7 +13,7 @@
     <div class="container-btns">
       <button class="menu-toggle" onclick="toggleMenu()"></button>
       <div class="menu">
-        <div class="Index squedule" title="info" onclick="fullView()">i</div>
+        <div class="Index squedule" title="info" onclick="displayer()">i</div>
         <div class="sky" title="dark mode">
           <div class="moonsun" onclick="nightView()"></div>
         </div>
@@ -36,7 +36,21 @@
           <div class="fuel selefl" title="select">fuel</div>
         </div>
       </div>
+
       <div class="frame">
+        <div class="sider-l">
+          <div class="am-marker">
+            <div class="am-sky"><div class="am-sun"></div></div>
+            AM
+          </div>
+          <div class="midnight-recap">
+            logic: <br />
+            15min / 3 = 5min <br />
+            1h / 4 = 15 min <br />
+            24h total <br />
+            <br />midnight ➥
+          </div>
+        </div>
         <div class="l">
           <div class="leftt"></div>
           <div class="left">
@@ -486,11 +500,12 @@
             </div>
           </div>
 
-          <div class="center" onclick="displayer()">
+          <div class="center" onclick="fullView()">
             <div class="time-display">
               <div class="time"></div>
               <div class="seconds"></div>
             </div>
+            <div class="tap-indicator">click me</div>
           </div>
 
           <div class="bottom">
@@ -639,6 +654,13 @@
             </div>
           </div>
           <div class="bottomt"></div>
+        </div>
+        <div class="sider-r">
+          <div class="selections-explained">🠕 select to apply to grid 🠕</div>
+          <div class="pm-marker">
+            PM
+            <div class="pm-sky"><div class="pm-sun"></div></div>
+          </div>
         </div>
       </div>
     </div>

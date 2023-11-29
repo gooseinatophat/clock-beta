@@ -28,6 +28,9 @@ function displayer() {
   document.querySelector(".top").classList.toggle("open");
   document.querySelector(".bottom").classList.toggle("open");
 
+  document.querySelector(".sider-l").classList.toggle("open");
+  document.querySelector(".sider-r").classList.toggle("open");
+  document.querySelector(".tap-indicator").classList.toggle("open");
 }
 
 let chosen = (classChangeTo) => {
