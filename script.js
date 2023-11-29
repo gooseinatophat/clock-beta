@@ -38,7 +38,9 @@ let chosen = (classChangeTo) => {
 
   slot.forEach((slots) => {
     slots.addEventListener("click", function () {
+      let slotId = slots.id;
       slots.className = classChangeTo;
+      setCookie('slot_' + slotId, classChangeTo, 30);
     });
   });
 };
@@ -78,6 +80,29 @@ let evnt = document.querySelector(".selevnt");
 evnt.addEventListener("click", function () {
   chosen("slot event");
 });
+
+function applySavedSettings() {
+  // Iterate through slots
+  let slot = document.querySelectorAll(".slot");
+  slot.forEach((slots) => {
+    // Get the slotId for each slot
+    let slotId = slots.id;
+
+    // Check if there is a cookie for the last class change for this slot
+    var lastClassChange = getCookie('slot_' + slotId);
+
+    if (lastClassChange) {
+      // Apply the last class change to this specific slot
+      slots.className = lastClassChange;
+    }
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  applySavedSettings();
+});
+
+
 
 
 function nightView() {
@@ -208,7 +233,7 @@ setInterval(function time() {
 
 
 
-/* function setCookie(cname,cvalue,exdays) {
+function setCookie(cname,cvalue,exdays) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   let expires = "expires=" + d.toUTCString();
@@ -241,4 +266,4 @@ function checkCookie() {
        setCookie("username", user, 30);
      }
   }
-} */
+}
