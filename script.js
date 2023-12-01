@@ -35,7 +35,7 @@ function displayer() {
   if (document.querySelector(".sider-l").classList.contains("open")) {
     document.querySelector(".frame").style.scale=("50%")
   } else {
-    document.querySelector(".frame").style.scale=("70%")
+    document.querySelector(".frame").style.scale=("90%")
 
   }
 }
