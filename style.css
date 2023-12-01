@@ -295,9 +295,17 @@ justify-content: space-evenly;
   height: 0.8vw;
   width: 100%;
 }
-.tock {
+/* .tock {
   display: flex;
   flex-direction: column;
+} */
+.left > .slot,.right > .slot{
+  display: flex;
+  flex-direction: column;
+} 
+.bottom > .slot{
+  display: flex;
+  flex-direction: column-reverse;
 }
 .center {
   height: 80.6vw;
