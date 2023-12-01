@@ -34,8 +34,11 @@ function displayer() {
 
   if (document.querySelector(".sider-l").classList.contains("open")) {
     document.querySelector(".frame").style.scale=("50%")
+    document.querySelector(".frame-overlord").style.scale=("100%")
+
   } else {
-    document.querySelector(".frame").style.scale=("90%")
+    document.querySelector(".frame").style.scale=("80%")
+    document.querySelector(".frame-overlord").style.scale=("130%")
 
   }
 }
@@ -200,8 +203,8 @@ function toggleMenu(){
   menuToggle.classList.toggle('open');
 
   if (menu.classList.contains('open'))
-  {document.querySelector(".frame-overlord").style.marginTop = '19vh';} 
-  else {document.querySelector(".frame-overlord").style.marginTop = '10vh';}
+  {document.querySelector(".frame-overlord").style.marginTop = '25vh';} 
+  else {document.querySelector(".frame-overlord").style.marginTop = '17vh';}
 }
 
 let s = 0;

@@ -10,9 +10,9 @@ body {
   justify-content: center;
   align-items: center;
 /*   border: rgb(0, 255, 55) 2vw solid;
- */  scale: 100%;
+ */  scale: 130%;
   transition: top 1s ease-in-out;
-  margin-top: 10vh;
+  margin-top: 17vh;
 
 }
 
@@ -24,7 +24,7 @@ body {
   margin: 0;
   margin-top: 0vw;
 /*   border: yellow 2vw solid;
- */  scale: 90%;
+ */  scale: 80%;
 }
 .sider-l{
   display: none;
