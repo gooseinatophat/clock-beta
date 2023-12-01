@@ -12,7 +12,7 @@ body {
 /*   border: rgb(0, 255, 55) 2vw solid;
  */  scale: 100%;
   transition: top 1s ease-in-out;
-  margin-top: 7vw;
+  margin-top: 10vh;
 
 }
 
@@ -22,9 +22,9 @@ body {
   justify-content: center;
   padding: 0 0 0 0;
   margin: 0;
-  margin-top: -22vw;
+  margin-top: -10vw;
 /*   border: yellow 2vw solid;
- */  scale: 50%;
+ */  scale: 70%;
 }
 .sider-l{
   display: none;
@@ -486,7 +486,7 @@ justify-content: space-evenly;
   height: 7vw;
   cursor: pointer;}
 .menu-toggle.open{
-  top: 9.5vw;
+  top: 11.5vh;
   height: 1vw;
   border-radius: 0%;
   background-color: #b3b3b3;
@@ -501,8 +501,8 @@ border: #000000 0.25vw solid;
   position: absolute;
   left: 0;
   width: 100%;
-  top: -15vw;
-  height: 10vw;
+  top: -15vh;
+  height: 12vh;
   background-color: #000000;
   transition: top 0.5s ease;
 }

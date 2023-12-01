@@ -31,6 +31,13 @@ function displayer() {
   document.querySelector(".sider-l").classList.toggle("open");
   document.querySelector(".sider-r").classList.toggle("open");
   document.querySelector(".tap-indicator").classList.toggle("open");
+
+  if (document.querySelector(".sider-l").classList.contains("open")) {
+    document.querySelector(".frame").style.scale=("50%")
+  } else {
+    document.querySelector(".frame").style.scale=("70%")
+
+  }
 }
 
 let chosen = (classChangeTo) => {
@@ -193,8 +200,8 @@ function toggleMenu(){
   menuToggle.classList.toggle('open');
 
   if (menu.classList.contains('open'))
-  {document.querySelector(".frame-overlord").style.marginTop = '13vw';} 
-  else {document.querySelector(".frame-overlord").style.marginTop = '7vw';}
+  {document.querySelector(".frame-overlord").style.marginTop = '19vh';} 
+  else {document.querySelector(".frame-overlord").style.marginTop = '10vh';}
 }
 
 let s = 0;
