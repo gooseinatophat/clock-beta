@@ -305,7 +305,7 @@ justify-content: space-evenly;
 } 
 .bottom > .slot{
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
 }
 .center {
   height: 80.6vw;
